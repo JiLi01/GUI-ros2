@@ -1,0 +1,86 @@
+[0.000000] (-) TimerEvent: {}
+[0.000473] (-) JobUnselected: {'identifier': 'base_interfaces_demo'}
+[0.001494] (cpp01_topic) JobQueued: {'identifier': 'cpp01_topic', 'dependencies': OrderedDict([('base_interfaces_demo', '/home/jiaxin/test2/install/base_interfaces_demo')])}
+[0.005575] (cpp01_topic) JobStarted: {'identifier': 'cpp01_topic'}
+[0.097409] (-) TimerEvent: {}
+[0.157456] (cpp01_topic) JobProgress: {'identifier': 'cpp01_topic', 'progress': 'cmake'}
+[0.159215] (cpp01_topic) JobProgress: {'identifier': 'cpp01_topic', 'progress': 'build'}
+[0.161619] (cpp01_topic) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/jiaxin/test2/build/cpp01_topic', '--', '-j4', '-l4'], 'cwd': '/home/jiaxin/test2/build/cpp01_topic', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'jiaxin'), ('GIT_ASKPASS', '/home/jiaxin/.vscode-server/bin/d045a5eda657f4d7b676dedbfa7aab8207f8a075/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/jiaxin/test2/install/base_interfaces_demo/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('WT_PROFILE_ID', '{07b52e3e-de2c-5db4-bd2d-ba144ed6c273}'), ('MOTD_SHOWN', 'update-motd'), ('HOME', '/home/jiaxin'), ('TERM_PROGRAM_VERSION', '1.72.2'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-c4248e1d-8bfe-483c-9b29-28b93a3e82fe.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/jiaxin/.vscode-server/bin/d045a5eda657f4d7b676dedbfa7aab8207f8a075/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/jiaxin/.vscode-server/bin/d045a5eda657f4d7b676dedbfa7aab8207f8a075/node'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu-20.04'), ('COLCON_PREFIX_PATH', '/home/jiaxin/test2/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'jiaxin'), ('NAME', 'Code'), ('WSL_INTEROP', '/run/WSL/22854_interop'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/jiaxin/.vscode-server/bin/d045a5eda657f4d7b676dedbfa7aab8207f8a075/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files (x86)/Vector vFlash 6/Bin/Automation/:/mnt/c/Program Files/Python39/Scripts/:/mnt/c/Program Files/Python39/:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/Program Files (x86)/Intel/Intel(R) Management Engine Components/iCLS/:/mnt/c/Program Files/Intel/Intel(R) Management Engine Components/iCLS/:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files (x86)/Intel/Intel(R) Management Engine Components/DAL:/mnt/c/Program Files/Intel/Intel(R) Management Engine Components/DAL:/mnt/c/Program Files/Intel/WiFi/bin/:/mnt/c/Program Files/Common Files/Intel/WirelessCommon/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files (x86)/Vector CANdb++ 3.1/Exec32:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/nodejs/:/mnt/c/MinGW/bin:/mnt/c/Users/SJWZSYO/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin'), ('WT_SESSION', '4ced6dd7-7f4b-4094-8462-087c27c3a096'), ('DISPLAY', '172.28.224.1:0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/vscode-git-c3a1d30f32.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/jiaxin/test2/install/cpp01_topic:/home/jiaxin/test2/install/base_interfaces_demo:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/jiaxin/test2/build/cpp01_topic'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/jiaxin/test2/install/base_interfaces_demo/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/jiaxin/test2/install/base_interfaces_demo:/home/jiaxin/test2/install/cpp01_topic:/opt/ros/humble'), ('WSLENV', 'ELECTRON_RUN_AS_NODE/w:WT_SESSION::WT_PROFILE_ID')]), 'shell': False}
+[0.197615] (-) TimerEvent: {}
+[0.233410] (cpp01_topic) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target demo01_talker\x1b[0m\n'}
+[0.261586] (cpp01_topic) StdoutLine: {'line': b'[ 33%] Built target demo02_transfer\n'}
+[0.262846] (cpp01_topic) StdoutLine: {'line': b'[ 66%] Built target demo03_listener\n'}
+[0.266782] (cpp01_topic) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding CXX object CMakeFiles/demo01_talker.dir/src/demo01_talker.cpp.o\x1b[0m\n'}
+[0.297779] (-) TimerEvent: {}
+[0.398259] (-) TimerEvent: {}
+[0.498842] (-) TimerEvent: {}
+[0.599355] (-) TimerEvent: {}
+[0.699954] (-) TimerEvent: {}
+[0.800545] (-) TimerEvent: {}
+[0.901074] (-) TimerEvent: {}
+[1.001655] (-) TimerEvent: {}
+[1.102225] (-) TimerEvent: {}
+[1.202753] (-) TimerEvent: {}
+[1.303289] (-) TimerEvent: {}
+[1.403805] (-) TimerEvent: {}
+[1.504294] (-) TimerEvent: {}
+[1.604901] (-) TimerEvent: {}
+[1.705496] (-) TimerEvent: {}
+[1.806088] (-) TimerEvent: {}
+[1.906622] (-) TimerEvent: {}
+[2.007081] (-) TimerEvent: {}
+[2.107634] (-) TimerEvent: {}
+[2.208241] (-) TimerEvent: {}
+[2.308818] (-) TimerEvent: {}
+[2.409346] (-) TimerEvent: {}
+[2.509953] (-) TimerEvent: {}
+[2.610499] (-) TimerEvent: {}
+[2.711070] (-) TimerEvent: {}
+[2.811639] (-) TimerEvent: {}
+[2.912140] (-) TimerEvent: {}
+[3.012688] (-) TimerEvent: {}
+[3.113187] (-) TimerEvent: {}
+[3.213769] (-) TimerEvent: {}
+[3.314276] (-) TimerEvent: {}
+[3.414856] (-) TimerEvent: {}
+[3.515370] (-) TimerEvent: {}
+[3.615893] (-) TimerEvent: {}
+[3.716487] (-) TimerEvent: {}
+[3.816979] (-) TimerEvent: {}
+[3.917577] (-) TimerEvent: {}
+[4.018114] (-) TimerEvent: {}
+[4.118719] (-) TimerEvent: {}
+[4.219313] (-) TimerEvent: {}
+[4.269710] (cpp01_topic) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiaxin/test2/src/cpp01_topic/src/demo01_talker.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid TalkerIn::on_timer()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.270073] (cpp01_topic) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiaxin/test2/src/cpp01_topic/src/demo01_talker.cpp:42:27:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[KTalkerIn::set_parameters(<brace-enclosed initializer list>, <brace-enclosed initializer list>)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.270312] (cpp01_topic) StderrLine: {'line': b'   42 |       \x1b[01;31m\x1b[Kthis->set_parameters({"Fahrer_bremst", "Fahrzeugzustand"},{input.driver_override_speed, input.fahrzeug_zustand})\x1b[m\x1b[K;\n'}
+[4.270803] (cpp01_topic) StderrLine: {'line': b'      |       \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.271076] (cpp01_topic) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[4.271319] (cpp01_topic) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[4.271638] (cpp01_topic) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[4.271851] (cpp01_topic) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/jiaxin/test2/src/cpp01_topic/src/demo01_talker.cpp:6\x1b[m\x1b[K:\n'}
+[4.272026] (cpp01_topic) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:593:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::vector<rcl_interfaces::msg::SetParametersResult_<std::allocator<void> > > rclcpp::Node::set_parameters(const std::vector<rclcpp::Parameter>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.272191] (cpp01_topic) StderrLine: {'line': b'  593 |   \x1b[01;36m\x1b[Kset_parameters\x1b[m\x1b[K(const std::vector<rclcpp::Parameter> & parameters);\n'}
+[4.272414] (cpp01_topic) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.272578] (cpp01_topic) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:593:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 1 argument, 2 provided\n'}
+[4.319465] (-) TimerEvent: {}
+[4.420722] (-) TimerEvent: {}
+[4.521248] (-) TimerEvent: {}
+[4.621844] (-) TimerEvent: {}
+[4.722470] (-) TimerEvent: {}
+[4.822989] (-) TimerEvent: {}
+[4.923592] (-) TimerEvent: {}
+[5.024172] (-) TimerEvent: {}
+[5.124790] (-) TimerEvent: {}
+[5.225362] (-) TimerEvent: {}
+[5.325978] (-) TimerEvent: {}
+[5.426529] (-) TimerEvent: {}
+[5.527078] (-) TimerEvent: {}
+[5.627661] (-) TimerEvent: {}
+[5.728249] (-) TimerEvent: {}
+[5.729903] (cpp01_topic) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/demo01_talker.dir/build.make:76: CMakeFiles/demo01_talker.dir/src/demo01_talker.cpp.o] Error 1\n'}
+[5.730574] (cpp01_topic) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:141: CMakeFiles/demo01_talker.dir/all] Error 2\n'}
+[5.731449] (cpp01_topic) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[5.735191] (cpp01_topic) CommandEnded: {'returncode': 2}
+[5.813631] (cpp01_topic) JobEnded: {'identifier': 'cpp01_topic', 'rc': 2}
+[5.825098] (-) EventReactorShutdown: {}

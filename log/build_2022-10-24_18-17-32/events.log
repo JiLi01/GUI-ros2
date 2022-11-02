@@ -1,0 +1,125 @@
+[0.000000] (-) TimerEvent: {}
+[0.000326] (-) JobUnselected: {'identifier': 'base_interfaces_demo'}
+[0.000457] (cpp01_topic) JobQueued: {'identifier': 'cpp01_topic', 'dependencies': OrderedDict([('base_interfaces_demo', '/home/jiaxin/test2/install/base_interfaces_demo')])}
+[0.001658] (cpp01_topic) JobStarted: {'identifier': 'cpp01_topic'}
+[0.099599] (-) TimerEvent: {}
+[0.166429] (cpp01_topic) JobProgress: {'identifier': 'cpp01_topic', 'progress': 'cmake'}
+[0.167730] (cpp01_topic) JobProgress: {'identifier': 'cpp01_topic', 'progress': 'build'}
+[0.169150] (cpp01_topic) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/jiaxin/test2/build/cpp01_topic', '--', '-j4', '-l4'], 'cwd': '/home/jiaxin/test2/build/cpp01_topic', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'jiaxin'), ('GIT_ASKPASS', '/home/jiaxin/.vscode-server/bin/d045a5eda657f4d7b676dedbfa7aab8207f8a075/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/jiaxin/test2/install/base_interfaces_demo/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('WT_PROFILE_ID', '{07b52e3e-de2c-5db4-bd2d-ba144ed6c273}'), ('MOTD_SHOWN', 'update-motd'), ('HOME', '/home/jiaxin'), ('TERM_PROGRAM_VERSION', '1.72.2'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-c4248e1d-8bfe-483c-9b29-28b93a3e82fe.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/jiaxin/.vscode-server/bin/d045a5eda657f4d7b676dedbfa7aab8207f8a075/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/jiaxin/.vscode-server/bin/d045a5eda657f4d7b676dedbfa7aab8207f8a075/node'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu-20.04'), ('COLCON_PREFIX_PATH', '/home/jiaxin/test2/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'jiaxin'), ('NAME', 'Code'), ('WSL_INTEROP', '/run/WSL/22854_interop'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/jiaxin/.vscode-server/bin/d045a5eda657f4d7b676dedbfa7aab8207f8a075/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files (x86)/Vector vFlash 6/Bin/Automation/:/mnt/c/Program Files/Python39/Scripts/:/mnt/c/Program Files/Python39/:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/Program Files (x86)/Intel/Intel(R) Management Engine Components/iCLS/:/mnt/c/Program Files/Intel/Intel(R) Management Engine Components/iCLS/:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files (x86)/Intel/Intel(R) Management Engine Components/DAL:/mnt/c/Program Files/Intel/Intel(R) Management Engine Components/DAL:/mnt/c/Program Files/Intel/WiFi/bin/:/mnt/c/Program Files/Common Files/Intel/WirelessCommon/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files (x86)/Vector CANdb++ 3.1/Exec32:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/nodejs/:/mnt/c/MinGW/bin:/mnt/c/Users/SJWZSYO/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin'), ('WT_SESSION', '4ced6dd7-7f4b-4094-8462-087c27c3a096'), ('DISPLAY', '172.28.224.1:0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/vscode-git-c3a1d30f32.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/jiaxin/test2/install/cpp01_topic:/home/jiaxin/test2/install/base_interfaces_demo:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/jiaxin/test2/build/cpp01_topic'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/jiaxin/test2/install/base_interfaces_demo/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/jiaxin/test2/install/base_interfaces_demo:/home/jiaxin/test2/install/cpp01_topic:/opt/ros/humble'), ('WSLENV', 'ELECTRON_RUN_AS_NODE/w:WT_SESSION::WT_PROFILE_ID')]), 'shell': False}
+[0.199777] (-) TimerEvent: {}
+[0.238895] (cpp01_topic) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target demo01_talker\x1b[0m\n'}
+[0.268217] (cpp01_topic) StdoutLine: {'line': b'[ 33%] Built target demo02_transfer\n'}
+[0.271349] (cpp01_topic) StdoutLine: {'line': b'[ 66%] Built target demo03_listener\n'}
+[0.274848] (cpp01_topic) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding CXX object CMakeFiles/demo01_talker.dir/src/demo01_talker.cpp.o\x1b[0m\n'}
+[0.299981] (-) TimerEvent: {}
+[0.400604] (-) TimerEvent: {}
+[0.501306] (-) TimerEvent: {}
+[0.601878] (-) TimerEvent: {}
+[0.702469] (-) TimerEvent: {}
+[0.803052] (-) TimerEvent: {}
+[0.903765] (-) TimerEvent: {}
+[1.004414] (-) TimerEvent: {}
+[1.114001] (-) TimerEvent: {}
+[1.216022] (-) TimerEvent: {}
+[1.316640] (-) TimerEvent: {}
+[1.417272] (-) TimerEvent: {}
+[1.517929] (-) TimerEvent: {}
+[1.618508] (-) TimerEvent: {}
+[1.719245] (-) TimerEvent: {}
+[1.819842] (-) TimerEvent: {}
+[1.920447] (-) TimerEvent: {}
+[2.021034] (-) TimerEvent: {}
+[2.121635] (-) TimerEvent: {}
+[2.222223] (-) TimerEvent: {}
+[2.322777] (-) TimerEvent: {}
+[2.423350] (-) TimerEvent: {}
+[2.523856] (-) TimerEvent: {}
+[2.624459] (-) TimerEvent: {}
+[2.725079] (-) TimerEvent: {}
+[2.825724] (-) TimerEvent: {}
+[2.926269] (-) TimerEvent: {}
+[3.026852] (-) TimerEvent: {}
+[3.127473] (-) TimerEvent: {}
+[3.228092] (-) TimerEvent: {}
+[3.328725] (-) TimerEvent: {}
+[3.429273] (-) TimerEvent: {}
+[3.529781] (-) TimerEvent: {}
+[3.630409] (-) TimerEvent: {}
+[3.734353] (-) TimerEvent: {}
+[3.836723] (-) TimerEvent: {}
+[3.937422] (-) TimerEvent: {}
+[4.038000] (-) TimerEvent: {}
+[4.138610] (-) TimerEvent: {}
+[4.239322] (-) TimerEvent: {}
+[4.349482] (-) TimerEvent: {}
+[4.450099] (-) TimerEvent: {}
+[4.550689] (-) TimerEvent: {}
+[4.651307] (-) TimerEvent: {}
+[4.751942] (-) TimerEvent: {}
+[4.852521] (-) TimerEvent: {}
+[4.953682] (-) TimerEvent: {}
+[5.054276] (-) TimerEvent: {}
+[5.154864] (-) TimerEvent: {}
+[5.255470] (-) TimerEvent: {}
+[5.356136] (-) TimerEvent: {}
+[5.438261] (cpp01_topic) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiaxin/test2/src/cpp01_topic/src/demo01_talker.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KTalkerIn::TalkerIn()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[5.438806] (cpp01_topic) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiaxin/test2/src/cpp01_topic/src/demo01_talker.cpp:24:27:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ka function-definition is not allowed here before \xe2\x80\x98\x1b[01m\x1b[K{\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[5.439067] (cpp01_topic) StderrLine: {'line': b'   24 |       void declare_param()\x1b[01;31m\x1b[K{\x1b[m\x1b[K\n'}
+[5.439267] (cpp01_topic) StderrLine: {'line': b'      |                           \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[5.439806] (cpp01_topic) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiaxin/test2/src/cpp01_topic/src/demo01_talker.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid TalkerIn::on_timer()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[5.439975] (cpp01_topic) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiaxin/test2/src/cpp01_topic/src/demo01_talker.cpp:38:13:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstruct base_interfaces_demo::msg::OutputIPARAAPIFnct_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[Kchange_gear_position\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.440087] (cpp01_topic) StderrLine: {'line': b'   38 |       input.\x1b[01;31m\x1b[Kchange_gear_position\x1b[m\x1b[K = count_++;\n'}
+[5.440219] (cpp01_topic) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.440664] (cpp01_topic) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiaxin/test2/src/cpp01_topic/src/demo01_talker.cpp:39:13:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstruct base_interfaces_demo::msg::OutputIPARAAPIFnct_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[Kaccel_des\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.441001] (cpp01_topic) StderrLine: {'line': b'   39 |       input.\x1b[01;31m\x1b[Kaccel_des\x1b[m\x1b[K = 0.5;\n'}
+[5.441772] (cpp01_topic) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[5.442123] (cpp01_topic) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiaxin/test2/src/cpp01_topic/src/demo01_talker.cpp:40:13:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstruct base_interfaces_demo::msg::OutputIPARAAPIFnct_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[Ksteering_angle\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.442454] (cpp01_topic) StderrLine: {'line': b'   40 |       input.\x1b[01;31m\x1b[Ksteering_angle\x1b[m\x1b[K = 0.6;\n'}
+[5.442780] (cpp01_topic) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.443083] (cpp01_topic) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24\x1b[m\x1b[K,\n'}
+[5.443392] (cpp01_topic) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[5.443701] (cpp01_topic) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:23\x1b[m\x1b[K,\n'}
+[5.444006] (cpp01_topic) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[5.444315] (cpp01_topic) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[5.444629] (cpp01_topic) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[5.444928] (cpp01_topic) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[5.445234] (cpp01_topic) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[5.445544] (cpp01_topic) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[5.445884] (cpp01_topic) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[5.446176] (cpp01_topic) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[5.446486] (cpp01_topic) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/jiaxin/test2/src/cpp01_topic/src/demo01_talker.cpp:6\x1b[m\x1b[K:\n'}
+[5.446751] (cpp01_topic) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiaxin/test2/src/cpp01_topic/src/demo01_talker.cpp:41:105:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstruct base_interfaces_demo::msg::OutputIPARAAPIFnct_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[Kchange_gear_position\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.447054] (cpp01_topic) StderrLine: {'line': b'   41 | CPP_INFO(this->get_logger(), "Iuput:change_gear_position=%d,accel_des=%.2f,height=%.2f", input.\x1b[01;31m\x1b[Kchange_gear_position\x1b[m\x1b[K,input.accel_des,input.steering_angle);\n'}
+[5.447400] (cpp01_topic) StderrLine: {'line': b'      |                                                                                                \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.447730] (cpp01_topic) StderrLine: {'line': b'\n'}
+[5.448032] (cpp01_topic) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiaxin/test2/src/cpp01_topic/src/demo01_talker.cpp:41:132:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstruct base_interfaces_demo::msg::OutputIPARAAPIFnct_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[Kaccel_des\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.448344] (cpp01_topic) StderrLine: {'line': b'   41 | , "Iuput:change_gear_position=%d,accel_des=%.2f,height=%.2f", input.change_gear_position,input.\x1b[01;31m\x1b[Kaccel_des\x1b[m\x1b[K,input.steering_angle);\n'}
+[5.448700] (cpp01_topic) StderrLine: {'line': b'      |                                                                                                \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[5.449073] (cpp01_topic) StderrLine: {'line': b'\n'}
+[5.449429] (cpp01_topic) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiaxin/test2/src/cpp01_topic/src/demo01_talker.cpp:41:148:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kstruct base_interfaces_demo::msg::OutputIPARAAPIFnct_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[Ksteering_angle\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.449979] (cpp01_topic) StderrLine: {'line': b'   41 | gear_position=%d,accel_des=%.2f,height=%.2f", input.change_gear_position,input.accel_des,input.\x1b[01;31m\x1b[Ksteering_angle\x1b[m\x1b[K);\n'}
+[5.450384] (cpp01_topic) StderrLine: {'line': b'      |                                                                                                \x1b[01;31m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.450727] (cpp01_topic) StderrLine: {'line': b'\n'}
+[5.456333] (-) TimerEvent: {}
+[5.556951] (-) TimerEvent: {}
+[5.657620] (-) TimerEvent: {}
+[5.758255] (-) TimerEvent: {}
+[5.858890] (-) TimerEvent: {}
+[5.959451] (-) TimerEvent: {}
+[6.060070] (-) TimerEvent: {}
+[6.160642] (-) TimerEvent: {}
+[6.261273] (-) TimerEvent: {}
+[6.361979] (-) TimerEvent: {}
+[6.462619] (-) TimerEvent: {}
+[6.563259] (-) TimerEvent: {}
+[6.663870] (-) TimerEvent: {}
+[6.764508] (-) TimerEvent: {}
+[6.865124] (-) TimerEvent: {}
+[6.965766] (-) TimerEvent: {}
+[7.007832] (cpp01_topic) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/demo01_talker.dir/build.make:76: CMakeFiles/demo01_talker.dir/src/demo01_talker.cpp.o] Error 1\n'}
+[7.008453] (cpp01_topic) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:141: CMakeFiles/demo01_talker.dir/all] Error 2\n'}
+[7.011474] (cpp01_topic) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[7.013357] (cpp01_topic) CommandEnded: {'returncode': 2}
+[7.065969] (-) TimerEvent: {}
+[7.096141] (cpp01_topic) JobEnded: {'identifier': 'cpp01_topic', 'rc': 2}
+[7.107551] (-) EventReactorShutdown: {}

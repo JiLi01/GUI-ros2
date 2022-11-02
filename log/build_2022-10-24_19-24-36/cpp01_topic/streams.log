@@ -1,0 +1,16 @@
+[0.165s] Invoking command in '/home/jiaxin/test2/build/cpp01_topic': CMAKE_PREFIX_PATH=/home/jiaxin/test2/install/base_interfaces_demo:/home/jiaxin/test2/install/cpp01_topic:/opt/ros/humble /usr/bin/cmake --build /home/jiaxin/test2/build/cpp01_topic -- -j4 -l4
+[0.226s] [35m[1mConsolidate compiler generated dependencies of target demo01_talker[0m
+[0.244s] [ 33%] Built target demo03_listener
+[0.251s] [ 66%] Built target demo02_transfer
+[0.255s] [ 83%] [32mBuilding CXX object CMakeFiles/demo01_talker.dir/src/demo01_talker.cpp.o[0m
+[5.200s] [01m[K/home/jiaxin/test2/src/cpp01_topic/src/demo01_talker.cpp:[m[K In member function ‘[01m[Kvoid TalkerIn::on_timer()[m[K’:
+[5.201s] [01m[K/home/jiaxin/test2/src/cpp01_topic/src/demo01_talker.cpp:50:56:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Krclcpp::Parameter[m[K’ to ‘[01m[Kbase_interfaces_demo::msg::OutputIPARAAPIFnct_<std::allocator<void> >::_driver_override_speed_type[m[K’ {aka ‘[01m[Kunsigned char[m[K’} in assignment
+[5.201s]    50 | _speed = [01;31m[Kthis->get_parameter("Fahrer_bremst")[m[K;
+[5.202s]       |          [01;31m[K~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~[m[K
+[5.202s]       |                             [01;31m[K|[m[K
+[5.202s]       |                             [01;31m[Krclcpp::Parameter[m[K
+[5.203s] 
+[6.525s] gmake[2]: *** [CMakeFiles/demo01_talker.dir/build.make:76: CMakeFiles/demo01_talker.dir/src/demo01_talker.cpp.o] Error 1
+[6.525s] gmake[1]: *** [CMakeFiles/Makefile2:141: CMakeFiles/demo01_talker.dir/all] Error 2
+[6.525s] gmake: *** [Makefile:146: all] Error 2
+[6.528s] Invoked command in '/home/jiaxin/test2/build/cpp01_topic' returned '2': CMAKE_PREFIX_PATH=/home/jiaxin/test2/install/base_interfaces_demo:/home/jiaxin/test2/install/cpp01_topic:/opt/ros/humble /usr/bin/cmake --build /home/jiaxin/test2/build/cpp01_topic -- -j4 -l4

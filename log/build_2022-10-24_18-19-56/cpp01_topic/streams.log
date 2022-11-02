@@ -1,0 +1,13 @@
+[0.170s] Invoking command in '/home/jiaxin/test2/build/cpp01_topic': CMAKE_PREFIX_PATH=/home/jiaxin/test2/install/base_interfaces_demo:/home/jiaxin/test2/install/cpp01_topic:/opt/ros/humble /usr/bin/cmake --build /home/jiaxin/test2/build/cpp01_topic -- -j4 -l4
+[0.239s] [35m[1mConsolidate compiler generated dependencies of target demo01_talker[0m
+[0.264s] [ 33%] Built target demo02_transfer
+[0.275s] [ 66%] Built target demo03_listener
+[0.277s] [ 83%] [32mBuilding CXX object CMakeFiles/demo01_talker.dir/src/demo01_talker.cpp.o[0m
+[5.759s] [01m[K/home/jiaxin/test2/src/cpp01_topic/src/demo01_talker.cpp:[m[K In constructor ‘[01m[KTalkerIn::TalkerIn()[m[K’:
+[5.760s] [01m[K/home/jiaxin/test2/src/cpp01_topic/src/demo01_talker.cpp:24:27:[m[K [01;31m[Kerror: [m[Ka function-definition is not allowed here before ‘[01m[K{[m[K’ token
+[5.760s]    24 |       void declare_param()[01;31m[K{[m[K
+[5.761s]       |                           [01;31m[K^[m[K
+[7.337s] gmake[2]: *** [CMakeFiles/demo01_talker.dir/build.make:76: CMakeFiles/demo01_talker.dir/src/demo01_talker.cpp.o] Error 1
+[7.338s] gmake[1]: *** [CMakeFiles/Makefile2:141: CMakeFiles/demo01_talker.dir/all] Error 2
+[7.338s] gmake: *** [Makefile:146: all] Error 2
+[7.342s] Invoked command in '/home/jiaxin/test2/build/cpp01_topic' returned '2': CMAKE_PREFIX_PATH=/home/jiaxin/test2/install/base_interfaces_demo:/home/jiaxin/test2/install/cpp01_topic:/opt/ros/humble /usr/bin/cmake --build /home/jiaxin/test2/build/cpp01_topic -- -j4 -l4

@@ -1,0 +1,58 @@
+[35m[1mConsolidate compiler generated dependencies of target demo01_talker[0m
+[ 33%] Built target demo02_transfer
+[ 66%] Built target demo03_listener
+[ 83%] [32mBuilding CXX object CMakeFiles/demo01_talker.dir/src/demo01_talker.cpp.o[0m
+[01m[K/home/jiaxin/test2/src/cpp01_topic/src/demo01_talker.cpp:[m[K In constructor ‘[01m[KTalkerIn::TalkerIn()[m[K’:
+[01m[K/home/jiaxin/test2/src/cpp01_topic/src/demo01_talker.cpp:24:27:[m[K [01;31m[Kerror: [m[Ka function-definition is not allowed here before ‘[01m[K{[m[K’ token
+   24 |       void declare_param()[01;31m[K{[m[K
+      |                           [01;31m[K^[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:23[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/jiaxin/test2/src/cpp01_topic/src/demo01_talker.cpp:6[m[K:
+[01m[K/home/jiaxin/test2/src/cpp01_topic/src/demo01_talker.cpp:[m[K In member function ‘[01m[Kvoid TalkerIn::on_timer()[m[K’:
+[01m[K/home/jiaxin/test2/src/cpp01_topic/src/demo01_talker.cpp:41:39:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%f[m[K’ expects argument of type ‘[01m[Kdouble[m[K’, but argument 6 has type ‘[01m[Kint[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+   41 |       RCLCPP_INFO(this->get_logger(), [01;35m[K"Iuput:driver_override_speed=%d,fahrzeug_zustand=%.2f,heartbeat_out=%.2f"[m[K, input.driver_override_speed,[32m[Kinput.fahrzeug_zustand[m[K,input.heartbeat_out);
+      |                                       [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K                              [32m[K~~~~~~~~~~~~~~~~~~~~~~[m[K
+      |                                                                                                                                                    [32m[K|[m[K
+      |                                                                                                                                                    [32m[Kint[m[K
+[01m[K/home/jiaxin/test2/src/cpp01_topic/src/demo01_talker.cpp:41:91:[m[K [01;36m[Knote: [m[Kformat string is defined here
+   41 |       RCLCPP_INFO(this->get_logger(), "Iuput:driver_override_speed=%d,fahrzeug_zustand=[01;36m[K%.2f[m[K,heartbeat_out=%.2f", input.driver_override_speed,input.fahrzeug_zustand,input.heartbeat_out);
+      |                                                                                        [01;36m[K~~~^[m[K
+      |                                                                                           [01;36m[K|[m[K
+      |                                                                                           [01;36m[Kdouble[m[K
+      |                                                                                        [32m[K%.2d[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:23[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/jiaxin/test2/src/cpp01_topic/src/demo01_talker.cpp:6[m[K:
+[01m[K/home/jiaxin/test2/src/cpp01_topic/src/demo01_talker.cpp:41:39:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%f[m[K’ expects argument of type ‘[01m[Kdouble[m[K’, but argument 7 has type ‘[01m[Kint[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+   41 |       RCLCPP_INFO(this->get_logger(), [01;35m[K"Iuput:driver_override_speed=%d,fahrzeug_zustand=%.2f,heartbeat_out=%.2f"[m[K, input.driver_override_speed,input.fahrzeug_zustand,[32m[Kinput.heartbeat_out[m[K);
+      |                                       [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K                                                     [32m[K~~~~~~~~~~~~~~~~~~~[m[K
+      |                                                                                                                                                                           [32m[K|[m[K
+      |                                                                                                                                                                           [32m[Kint[m[K
+[01m[K/home/jiaxin/test2/src/cpp01_topic/src/demo01_talker.cpp:41:110:[m[K [01;36m[Knote: [m[Kformat string is defined here
+   41 | NFO(this->get_logger(), "Iuput:driver_override_speed=%d,fahrzeug_zustand=%.2f,heartbeat_out=[01;36m[K%.2f[m[K", input.driver_override_speed,input.fahrzeug_zustand,input.heartbeat_out);
+      |                                                                                             [01;36m[K~~~^[m[K
+      |                                                                                                [01;36m[K|[m[K
+      |                                                                                                [01;36m[Kdouble[m[K
+      |                                                                                             [32m[K%.2d[m[K
+gmake[2]: *** [CMakeFiles/demo01_talker.dir/build.make:76: CMakeFiles/demo01_talker.dir/src/demo01_talker.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:141: CMakeFiles/demo01_talker.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

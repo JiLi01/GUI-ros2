@@ -1,0 +1,200 @@
+[0.167s] Invoking command in '/home/jiaxin/test2/build/cpp01_topic': CMAKE_PREFIX_PATH=/home/jiaxin/test2/install/base_interfaces_demo:/home/jiaxin/test2/install/cpp01_topic:/opt/ros/humble /usr/bin/cmake --build /home/jiaxin/test2/build/cpp01_topic -- -j4 -l4
+[0.225s] [35m[1mConsolidate compiler generated dependencies of target demo03_listener[0m
+[0.239s] [ 33%] Built target demo01_talker
+[0.242s] [ 50%] [32mBuilding CXX object CMakeFiles/demo02_transfer.dir/src/demo02_transfer.cpp.o[0m
+[0.257s] [ 66%] [32mBuilding CXX object CMakeFiles/demo03_listener.dir/src/demo03_listener.cpp.o[0m
+[5.272s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[5.272s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[5.272s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:23[m[K,
+[5.272s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[5.272s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[5.273s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[5.273s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[5.273s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[5.273s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[5.273s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[5.273s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[5.273s]                  from [01m[K/home/jiaxin/test2/src/cpp01_topic/src/demo03_listener.cpp:6[m[K:
+[5.274s] [01m[K/home/jiaxin/test2/src/cpp01_topic/src/demo03_listener.cpp:[m[K In member function ‘[01m[Kvoid ListenerOut::do_cb(const InputIPARAAPIFnct&) const[m[K’:
+[5.274s] [01m[K/home/jiaxin/test2/src/cpp01_topic/src/demo03_listener.cpp:26:39:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%ld[m[K’ expects argument of type ‘[01m[Klong int[m[K’, but argument 5 has type ‘[01m[Kint[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[5.274s]    26 | PP_INFO(this->get_logger(), [01;35m[K"Output:change_gear_position=%ld,accel_des=%ld,steering_angle=%ld"[m[K, [32m[Koutput.change_gear_position[m[K,output.accel_des,output.steering_angle);
+[5.274s]       |                             [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K  [32m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[5.274s]       |                                                                                                        [32m[K|[m[K
+[5.274s]       |                                                                                                        [32m[Kint[m[K
+[5.276s] 
+[5.277s] [01m[K/home/jiaxin/test2/src/cpp01_topic/src/demo03_listener.cpp:26:70:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[5.277s]    26 | tput:change_gear_position=[01;36m[K%ld[m[K,accel_des=%ld,steering_angle=%ld", output.change_gear_position,output.accel_des,output.steering_angle);
+[5.277s]       |                           [01;36m[K~~^[m[K
+[5.277s]       |                             [01;36m[K|[m[K
+[5.277s]       |                             [01;36m[Klong int[m[K
+[5.278s]       |                           [32m[K%d[m[K
+[5.278s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[5.278s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[5.278s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:23[m[K,
+[5.278s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[5.278s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[5.278s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[5.279s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[5.279s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[5.279s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[5.279s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[5.279s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[5.279s]                  from [01m[K/home/jiaxin/test2/src/cpp01_topic/src/demo03_listener.cpp:6[m[K:
+[5.280s] [01m[K/home/jiaxin/test2/src/cpp01_topic/src/demo03_listener.cpp:26:39:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%ld[m[K’ expects argument of type ‘[01m[Klong int[m[K’, but argument 6 has type ‘[01m[Kdouble[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[5.280s]    26 | PP_INFO(this->get_logger(), [01;35m[K"Output:change_gear_position=%ld,accel_des=%ld,steering_angle=%ld"[m[K, output.change_gear_position,[32m[Koutput.accel_des[m[K,output.steering_angle);
+[5.280s]       |                             [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K                              [32m[K~~~~~~~~~~~~~~~~[m[K
+[5.280s]       |                                                                                                                                    [32m[K|[m[K
+[5.280s]       |                                                                                                                                    [32m[Kdouble[m[K
+[5.280s] 
+[5.281s] [01m[K/home/jiaxin/test2/src/cpp01_topic/src/demo03_listener.cpp:26:84:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[5.281s]    26 | ar_position=%ld,accel_des=[01;36m[K%ld[m[K,steering_angle=%ld", output.change_gear_position,output.accel_des,output.steering_angle);
+[5.281s]       |                           [01;36m[K~~^[m[K
+[5.281s]       |                             [01;36m[K|[m[K
+[5.281s]       |                             [01;36m[Klong int[m[K
+[5.282s]       |                           [32m[K%f[m[K
+[5.282s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[5.282s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[5.282s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:23[m[K,
+[5.282s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[5.283s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[5.283s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[5.283s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[5.283s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[5.287s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[5.287s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[5.287s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[5.288s]                  from [01m[K/home/jiaxin/test2/src/cpp01_topic/src/demo03_listener.cpp:6[m[K:
+[5.289s] [01m[K/home/jiaxin/test2/src/cpp01_topic/src/demo03_listener.cpp:26:39:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%ld[m[K’ expects argument of type ‘[01m[Klong int[m[K’, but argument 7 has type ‘[01m[Kdouble[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[5.289s]    26 | PP_INFO(this->get_logger(), [01;35m[K"Output:change_gear_position=%ld,accel_des=%ld,steering_angle=%ld"[m[K, output.change_gear_position,output.accel_des,[32m[Koutput.steering_angle[m[K);
+[5.289s]       |                             [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K                                               [32m[K~~~~~~~~~~~~~~~~~~~~~[m[K
+[5.290s]       |                                                                                                                                                     [32m[K|[m[K
+[5.290s]       |                                                                                                                                                     [32m[Kdouble[m[K
+[5.295s] 
+[5.296s] [01m[K/home/jiaxin/test2/src/cpp01_topic/src/demo03_listener.cpp:26:103:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[5.296s]    26 | el_des=%ld,steering_angle=[01;36m[K%ld[m[K", output.change_gear_position,output.accel_des,output.steering_angle);
+[5.296s]       |                           [01;36m[K~~^[m[K
+[5.297s]       |                             [01;36m[K|[m[K
+[5.297s]       |                             [01;36m[Klong int[m[K
+[5.297s]       |                           [32m[K%f[m[K
+[5.319s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[5.319s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[5.320s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:23[m[K,
+[5.320s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[5.320s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[5.321s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[5.321s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[5.322s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[5.322s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[5.323s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[5.323s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[5.323s]                  from [01m[K/home/jiaxin/test2/src/cpp01_topic/src/demo02_transfer.cpp:6[m[K:
+[5.324s] [01m[K/home/jiaxin/test2/src/cpp01_topic/src/demo02_transfer.cpp:[m[K In member function ‘[01m[Kvoid Transfer::do_cb(const OutputIPARAAPIFnct&) const[m[K’:
+[5.324s] [01m[K/home/jiaxin/test2/src/cpp01_topic/src/demo02_transfer.cpp:63:39:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%ld[m[K’ expects argument of type ‘[01m[Klong int[m[K’, but argument 5 has type ‘[01m[Kint[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[5.325s]    63 |       RCLCPP_INFO(this->get_logger(), [01;35m[K"Iuput:change_gear_position=%ld,fahrzeug_zustand=%ld,heartbeat_out=%ld"[m[K, [32m[Kinput.driver_override_speed[m[K,input.fahrzeug_zustand,input.heartbeat_out);
+[5.327s]       |                                       [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K  [32m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[5.327s]       |                                                                                                                      [32m[K|[m[K
+[5.328s]       |                                                                                                                      [32m[Kint[m[K
+[5.328s] [01m[K/home/jiaxin/test2/src/cpp01_topic/src/demo02_transfer.cpp:63:69:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[5.328s]    63 |       RCLCPP_INFO(this->get_logger(), "Iuput:change_gear_position=[01;36m[K%ld[m[K,fahrzeug_zustand=%ld,heartbeat_out=%ld", input.driver_override_speed,input.fahrzeug_zustand,input.heartbeat_out);
+[5.329s]       |                                                                   [01;36m[K~~^[m[K
+[5.329s]       |                                                                     [01;36m[K|[m[K
+[5.330s]       |                                                                     [01;36m[Klong int[m[K
+[5.330s]       |                                                                   [32m[K%d[m[K
+[5.330s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[5.331s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[5.332s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:23[m[K,
+[5.333s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[5.336s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[5.336s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[5.337s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[5.338s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[5.338s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[5.339s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[5.339s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[5.339s]                  from [01m[K/home/jiaxin/test2/src/cpp01_topic/src/demo02_transfer.cpp:6[m[K:
+[5.340s] [01m[K/home/jiaxin/test2/src/cpp01_topic/src/demo02_transfer.cpp:63:39:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%ld[m[K’ expects argument of type ‘[01m[Klong int[m[K’, but argument 6 has type ‘[01m[Kint[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[5.340s]    63 |       RCLCPP_INFO(this->get_logger(), [01;35m[K"Iuput:change_gear_position=%ld,fahrzeug_zustand=%ld,heartbeat_out=%ld"[m[K, input.driver_override_speed,[32m[Kinput.fahrzeug_zustand[m[K,input.heartbeat_out);
+[5.341s]       |                                       [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K                              [32m[K~~~~~~~~~~~~~~~~~~~~~~[m[K
+[5.341s]       |                                                                                                                                                  [32m[K|[m[K
+[5.342s]       |                                                                                                                                                  [32m[Kint[m[K
+[5.342s] [01m[K/home/jiaxin/test2/src/cpp01_topic/src/demo02_transfer.cpp:63:90:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[5.345s]    63 |       RCLCPP_INFO(this->get_logger(), "Iuput:change_gear_position=%ld,fahrzeug_zustand=[01;36m[K%ld[m[K,heartbeat_out=%ld", input.driver_override_speed,input.fahrzeug_zustand,input.heartbeat_out);
+[5.347s]       |                                                                                        [01;36m[K~~^[m[K
+[5.348s]       |                                                                                          [01;36m[K|[m[K
+[5.348s]       |                                                                                          [01;36m[Klong int[m[K
+[5.349s]       |                                                                                        [32m[K%d[m[K
+[5.349s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[5.350s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[5.350s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:23[m[K,
+[5.351s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[5.351s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[5.351s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[5.352s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[5.352s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[5.353s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[5.353s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[5.354s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[5.354s]                  from [01m[K/home/jiaxin/test2/src/cpp01_topic/src/demo02_transfer.cpp:6[m[K:
+[5.355s] [01m[K/home/jiaxin/test2/src/cpp01_topic/src/demo02_transfer.cpp:63:39:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%ld[m[K’ expects argument of type ‘[01m[Klong int[m[K’, but argument 7 has type ‘[01m[Kint[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[5.355s]    63 |       RCLCPP_INFO(this->get_logger(), [01;35m[K"Iuput:change_gear_position=%ld,fahrzeug_zustand=%ld,heartbeat_out=%ld"[m[K, input.driver_override_speed,input.fahrzeug_zustand,[32m[Kinput.heartbeat_out[m[K);
+[5.356s]       |                                       [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K                                                     [32m[K~~~~~~~~~~~~~~~~~~~[m[K
+[5.356s]       |                                                                                                                                                                         [32m[K|[m[K
+[5.357s]       |                                                                                                                                                                         [32m[Kint[m[K
+[5.357s] [01m[K/home/jiaxin/test2/src/cpp01_topic/src/demo02_transfer.cpp:63:108:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[5.358s]    63 |       RCLCPP_INFO(this->get_logger(), "Iuput:change_gear_position=%ld,fahrzeug_zustand=%ld,heartbeat_out=[01;36m[K%ld[m[K", input.driver_override_speed,input.fahrzeug_zustand,input.heartbeat_out);
+[5.358s]       |                                                                                                          [01;36m[K~~^[m[K
+[5.359s]       |                                                                                                            [01;36m[K|[m[K
+[5.359s]       |                                                                                                            [01;36m[Klong int[m[K
+[5.360s]       |                                                                                                          [32m[K%d[m[K
+[5.360s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[5.361s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[5.361s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:23[m[K,
+[5.361s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[5.362s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[5.362s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[5.363s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[5.363s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[5.363s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[5.364s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[5.364s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[5.365s]                  from [01m[K/home/jiaxin/test2/src/cpp01_topic/src/demo02_transfer.cpp:6[m[K:
+[5.365s] [01m[K/home/jiaxin/test2/src/cpp01_topic/src/demo02_transfer.cpp:[m[K In member function ‘[01m[Kvoid Transfer::on_timer()[m[K’:
+[5.365s] [01m[K/home/jiaxin/test2/src/cpp01_topic/src/demo02_transfer.cpp:77:39:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%ld[m[K’ expects argument of type ‘[01m[Klong int[m[K’, but argument 5 has type ‘[01m[Kint[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[5.366s]    77 |       RCLCPP_INFO(this->get_logger(), [01;35m[K"Output:change_gear_position=%ld,accel_des=%.2f,steering_angle=%.2f"[m[K, [32m[Koutput.change_gear_position[m[K,output.accel_des,output.steering_angle);
+[5.366s]       |                                       [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K  [32m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[5.367s]       |                                                                                                                    [32m[K|[m[K
+[5.367s]       |                                                                                                                    [32m[Kint[m[K
+[5.367s] [01m[K/home/jiaxin/test2/src/cpp01_topic/src/demo02_transfer.cpp:77:70:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[5.368s]    77 |       RCLCPP_INFO(this->get_logger(), "Output:change_gear_position=[01;36m[K%ld[m[K,accel_des=%.2f,steering_angle=%.2f", output.change_gear_position,output.accel_des,output.steering_angle);
+[5.368s]       |                                                                    [01;36m[K~~^[m[K
+[5.368s]       |                                                                      [01;36m[K|[m[K
+[5.369s]       |                                                                      [01;36m[Klong int[m[K
+[5.369s]       |                                                                    [32m[K%d[m[K
+[16.576s] [ 83%] [32m[1mLinking CXX executable demo03_listener[0m
+[17.427s] [100%] [32m[1mLinking CXX executable demo02_transfer[0m
+[17.498s] [100%] Built target demo03_listener
+[18.397s] [100%] Built target demo02_transfer
+[18.425s] Invoked command in '/home/jiaxin/test2/build/cpp01_topic' returned '0': CMAKE_PREFIX_PATH=/home/jiaxin/test2/install/base_interfaces_demo:/home/jiaxin/test2/install/cpp01_topic:/opt/ros/humble /usr/bin/cmake --build /home/jiaxin/test2/build/cpp01_topic -- -j4 -l4
+[18.476s] Invoking command in '/home/jiaxin/test2/build/cpp01_topic': CMAKE_PREFIX_PATH=/home/jiaxin/test2/install/base_interfaces_demo:/home/jiaxin/test2/install/cpp01_topic:/opt/ros/humble /usr/bin/cmake --install /home/jiaxin/test2/build/cpp01_topic
+[18.484s] -- Install configuration: ""
+[18.485s] -- Up-to-date: /home/jiaxin/test2/install/cpp01_topic/lib/cpp01_topic/demo01_talker
+[18.485s] -- Installing: /home/jiaxin/test2/install/cpp01_topic/lib/cpp01_topic/demo02_transfer
+[18.496s] -- Set runtime path of "/home/jiaxin/test2/install/cpp01_topic/lib/cpp01_topic/demo02_transfer" to ""
+[18.497s] -- Installing: /home/jiaxin/test2/install/cpp01_topic/lib/cpp01_topic/demo03_listener
+[18.505s] -- Set runtime path of "/home/jiaxin/test2/install/cpp01_topic/lib/cpp01_topic/demo03_listener" to ""
+[18.506s] -- Up-to-date: /home/jiaxin/test2/install/cpp01_topic/share/ament_index/resource_index/package_run_dependencies/cpp01_topic
+[18.506s] -- Up-to-date: /home/jiaxin/test2/install/cpp01_topic/share/ament_index/resource_index/parent_prefix_path/cpp01_topic
+[18.507s] -- Up-to-date: /home/jiaxin/test2/install/cpp01_topic/share/cpp01_topic/environment/ament_prefix_path.sh
+[18.507s] -- Up-to-date: /home/jiaxin/test2/install/cpp01_topic/share/cpp01_topic/environment/ament_prefix_path.dsv
+[18.507s] -- Up-to-date: /home/jiaxin/test2/install/cpp01_topic/share/cpp01_topic/environment/path.sh
+[18.507s] -- Up-to-date: /home/jiaxin/test2/install/cpp01_topic/share/cpp01_topic/environment/path.dsv
+[18.508s] -- Up-to-date: /home/jiaxin/test2/install/cpp01_topic/share/cpp01_topic/local_setup.bash
+[18.508s] -- Up-to-date: /home/jiaxin/test2/install/cpp01_topic/share/cpp01_topic/local_setup.sh
+[18.508s] -- Up-to-date: /home/jiaxin/test2/install/cpp01_topic/share/cpp01_topic/local_setup.zsh
+[18.508s] -- Up-to-date: /home/jiaxin/test2/install/cpp01_topic/share/cpp01_topic/local_setup.dsv
+[18.508s] -- Installing: /home/jiaxin/test2/install/cpp01_topic/share/cpp01_topic/package.dsv
+[18.508s] -- Up-to-date: /home/jiaxin/test2/install/cpp01_topic/share/ament_index/resource_index/packages/cpp01_topic
+[18.509s] -- Up-to-date: /home/jiaxin/test2/install/cpp01_topic/share/cpp01_topic/cmake/cpp01_topicConfig.cmake
+[18.509s] -- Up-to-date: /home/jiaxin/test2/install/cpp01_topic/share/cpp01_topic/cmake/cpp01_topicConfig-version.cmake
+[18.509s] -- Up-to-date: /home/jiaxin/test2/install/cpp01_topic/share/cpp01_topic/package.xml
+[18.524s] Invoked command in '/home/jiaxin/test2/build/cpp01_topic' returned '0': CMAKE_PREFIX_PATH=/home/jiaxin/test2/install/base_interfaces_demo:/home/jiaxin/test2/install/cpp01_topic:/opt/ros/humble /usr/bin/cmake --install /home/jiaxin/test2/build/cpp01_topic

@@ -1,0 +1,12 @@
+[35m[1mConsolidate compiler generated dependencies of target demo01_talker[0m
+[ 33%] Built target demo02_transfer
+[ 66%] Built target demo03_listener
+[ 83%] [32mBuilding CXX object CMakeFiles/demo01_talker.dir/src/demo01_talker.cpp.o[0m
+[01m[K/home/jiaxin/test2/src/cpp01_topic/src/demo01_talker.cpp:[m[K In member function ‘[01m[Kvoid TalkerIn::on_timer()[m[K’:
+[01m[K/home/jiaxin/test2/src/cpp01_topic/src/demo01_talker.cpp:36:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kinput[m[K’ was not declared in this scope; did you mean ‘[01m[Kint[m[K’?
+   36 |       [01;31m[Kinput[m[K.driver_override_speed = count_++;
+      |       [01;31m[K^~~~~[m[K
+      |       [32m[Kint[m[K
+gmake[2]: *** [CMakeFiles/demo01_talker.dir/build.make:76: CMakeFiles/demo01_talker.dir/src/demo01_talker.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:141: CMakeFiles/demo01_talker.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

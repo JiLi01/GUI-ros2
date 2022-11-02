@@ -1,0 +1,6 @@
+Invoking command in '/home/jiaxin/test2/build/cpp01_topic': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/jiaxin/test2/src/cpp01_topic -DCMAKE_INSTALL_PREFIX=/home/jiaxin/test2/install/cpp01_topic
+Invoked command in '/home/jiaxin/test2/build/cpp01_topic' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/jiaxin/test2/src/cpp01_topic -DCMAKE_INSTALL_PREFIX=/home/jiaxin/test2/install/cpp01_topic
+Invoking command in '/home/jiaxin/test2/build/cpp01_topic': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/jiaxin/test2/build/cpp01_topic -- -j4 -l4
+Invoked command in '/home/jiaxin/test2/build/cpp01_topic' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/jiaxin/test2/build/cpp01_topic -- -j4 -l4
+Invoking command in '/home/jiaxin/test2/build/cpp01_topic': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/jiaxin/test2/build/cpp01_topic
+Invoked command in '/home/jiaxin/test2/build/cpp01_topic' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/jiaxin/test2/build/cpp01_topic

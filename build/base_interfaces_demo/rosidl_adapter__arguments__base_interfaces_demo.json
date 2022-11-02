@@ -1,0 +1,7 @@
+{
+  "package_name": "base_interfaces_demo",
+  "non_idl_tuples": [
+    "/home/jiaxin/test2/src/base_interfaces_demo:msg/InputIPARAAPIFnct.msg",
+    "/home/jiaxin/test2/src/base_interfaces_demo:msg/OutputIPARAAPIFnct.msg"
+  ]
+}

@@ -1,0 +1,10 @@
+[01m[K/home/jiaxin/test2/src/cpp01_topic/src/demo01_talker.cpp:[m[K In member function ‘[01m[Kvoid TalkerIn::on_timer()[m[K’:
+[01m[K/home/jiaxin/test2/src/cpp01_topic/src/demo01_talker.cpp:50:56:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Krclcpp::Parameter[m[K’ to ‘[01m[Kbase_interfaces_demo::msg::OutputIPARAAPIFnct_<std::allocator<void> >::_driver_override_speed_type[m[K’ {aka ‘[01m[Kunsigned char[m[K’} in assignment
+   50 | _speed = [01;31m[Kthis->get_parameter("Fahrer_bremst")[m[K;
+      |          [01;31m[K~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~[m[K
+      |                             [01;31m[K|[m[K
+      |                             [01;31m[Krclcpp::Parameter[m[K
+
+gmake[2]: *** [CMakeFiles/demo01_talker.dir/build.make:76: CMakeFiles/demo01_talker.dir/src/demo01_talker.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:141: CMakeFiles/demo01_talker.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

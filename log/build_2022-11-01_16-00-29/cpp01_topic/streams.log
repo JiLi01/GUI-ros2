@@ -1,0 +1,29 @@
+[0.159s] Invoking command in '/home/jiaxin/test2/build/cpp01_topic': CMAKE_PREFIX_PATH=/home/jiaxin/test2/install/base_interfaces_demo:/home/jiaxin/test2/install/cpp01_topic:/opt/ros/humble /usr/bin/cmake --build /home/jiaxin/test2/build/cpp01_topic -- -j4 -l4
+[0.255s] [ 33%] Built target demo01_talker
+[0.259s] [ 66%] Built target demo03_listener
+[0.262s] [ 83%] [32mBuilding CXX object CMakeFiles/demo02_transfer.dir/src/demo02_transfer.cpp.o[0m
+[17.800s] [100%] [32m[1mLinking CXX executable demo02_transfer[0m
+[18.833s] [100%] Built target demo02_transfer
+[18.854s] Invoked command in '/home/jiaxin/test2/build/cpp01_topic' returned '0': CMAKE_PREFIX_PATH=/home/jiaxin/test2/install/base_interfaces_demo:/home/jiaxin/test2/install/cpp01_topic:/opt/ros/humble /usr/bin/cmake --build /home/jiaxin/test2/build/cpp01_topic -- -j4 -l4
+[18.906s] Invoking command in '/home/jiaxin/test2/build/cpp01_topic': CMAKE_PREFIX_PATH=/home/jiaxin/test2/install/base_interfaces_demo:/home/jiaxin/test2/install/cpp01_topic:/opt/ros/humble /usr/bin/cmake --install /home/jiaxin/test2/build/cpp01_topic
+[18.918s] -- Install configuration: ""
+[18.921s] -- Up-to-date: /home/jiaxin/test2/install/cpp01_topic/lib/cpp01_topic/demo01_talker
+[18.922s] -- Installing: /home/jiaxin/test2/install/cpp01_topic/lib/cpp01_topic/demo02_transfer
+[18.931s] -- Set runtime path of "/home/jiaxin/test2/install/cpp01_topic/lib/cpp01_topic/demo02_transfer" to ""
+[18.931s] -- Up-to-date: /home/jiaxin/test2/install/cpp01_topic/lib/cpp01_topic/demo03_listener
+[18.932s] -- Up-to-date: /home/jiaxin/test2/install/cpp01_topic/share/ament_index/resource_index/package_run_dependencies/cpp01_topic
+[18.932s] -- Up-to-date: /home/jiaxin/test2/install/cpp01_topic/share/ament_index/resource_index/parent_prefix_path/cpp01_topic
+[18.933s] -- Up-to-date: /home/jiaxin/test2/install/cpp01_topic/share/cpp01_topic/environment/ament_prefix_path.sh
+[18.933s] -- Up-to-date: /home/jiaxin/test2/install/cpp01_topic/share/cpp01_topic/environment/ament_prefix_path.dsv
+[18.933s] -- Up-to-date: /home/jiaxin/test2/install/cpp01_topic/share/cpp01_topic/environment/path.sh
+[18.934s] -- Up-to-date: /home/jiaxin/test2/install/cpp01_topic/share/cpp01_topic/environment/path.dsv
+[18.935s] -- Up-to-date: /home/jiaxin/test2/install/cpp01_topic/share/cpp01_topic/local_setup.bash
+[18.937s] -- Up-to-date: /home/jiaxin/test2/install/cpp01_topic/share/cpp01_topic/local_setup.sh
+[18.938s] -- Up-to-date: /home/jiaxin/test2/install/cpp01_topic/share/cpp01_topic/local_setup.zsh
+[18.939s] -- Up-to-date: /home/jiaxin/test2/install/cpp01_topic/share/cpp01_topic/local_setup.dsv
+[18.940s] -- Installing: /home/jiaxin/test2/install/cpp01_topic/share/cpp01_topic/package.dsv
+[18.941s] -- Up-to-date: /home/jiaxin/test2/install/cpp01_topic/share/ament_index/resource_index/packages/cpp01_topic
+[18.941s] -- Up-to-date: /home/jiaxin/test2/install/cpp01_topic/share/cpp01_topic/cmake/cpp01_topicConfig.cmake
+[18.944s] -- Up-to-date: /home/jiaxin/test2/install/cpp01_topic/share/cpp01_topic/cmake/cpp01_topicConfig-version.cmake
+[18.945s] -- Up-to-date: /home/jiaxin/test2/install/cpp01_topic/share/cpp01_topic/package.xml
+[18.948s] Invoked command in '/home/jiaxin/test2/build/cpp01_topic' returned '0': CMAKE_PREFIX_PATH=/home/jiaxin/test2/install/base_interfaces_demo:/home/jiaxin/test2/install/cpp01_topic:/opt/ros/humble /usr/bin/cmake --install /home/jiaxin/test2/build/cpp01_topic

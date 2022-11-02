@@ -1,0 +1,12 @@
+[01m[K/home/jiaxin/test2/src/cpp01_topic/src/demo02_transfer.cpp:[m[K In constructor ‘[01m[KTransfer::Transfer()[m[K’:
+[01m[K/home/jiaxin/test2/src/cpp01_topic/src/demo02_transfer.cpp:23:27:[m[K [01;31m[Kerror: [m[Ka function-definition is not allowed here before ‘[01m[K{[m[K’ token
+   23 |       void declare_param()[01;31m[K{[m[K
+      |                           [01;31m[K^[m[K
+[01m[K/home/jiaxin/test2/src/cpp01_topic/src/demo02_transfer.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/jiaxin/test2/src/cpp01_topic/src/demo02_transfer.cpp:119:18:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = class Transfer[m[K’ {aka ‘[01m[Kclass Transfer[m[K’} has no member named ‘[01m[Kdeclare_param[m[K’; did you mean ‘[01m[Kdeclare_parameter[m[K’?
+  119 |   transfer_node->[01;31m[Kdeclare_param[m[K();
+      |                  [01;31m[K^~~~~~~~~~~~~[m[K
+      |                  [32m[Kdeclare_parameter[m[K
+gmake[2]: *** [CMakeFiles/demo02_transfer.dir/build.make:76: CMakeFiles/demo02_transfer.dir/src/demo02_transfer.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:167: CMakeFiles/demo02_transfer.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

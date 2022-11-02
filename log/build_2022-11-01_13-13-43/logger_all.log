@@ -1,0 +1,154 @@
+[0.682s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--packages-select', 'cpp01_topic']
+[0.682s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=4, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=['cpp01_topic'], packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f02f139b130>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f02f1d4b6d0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f02f1d4b6d0>>)
+[0.738s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.739s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.739s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.739s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.739s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.740s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.740s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/jiaxin/test2'
+[0.741s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.742s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.745s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.746s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.746s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.746s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.746s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.746s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.746s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.802s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.802s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.803s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.803s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.803s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.803s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.804s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.805s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.805s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.806s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.806s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.807s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.808s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.808s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.808s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.809s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.809s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.809s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.810s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.810s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.810s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.810s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.811s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.811s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.811s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.811s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.812s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.812s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.812s] Level 1:colcon.colcon_core.package_identification:_identify(src/base_interfaces_demo) by extensions ['ignore', 'ignore_ament_install']
+[0.813s] Level 1:colcon.colcon_core.package_identification:_identify(src/base_interfaces_demo) by extension 'ignore'
+[0.813s] Level 1:colcon.colcon_core.package_identification:_identify(src/base_interfaces_demo) by extension 'ignore_ament_install'
+[0.813s] Level 1:colcon.colcon_core.package_identification:_identify(src/base_interfaces_demo) by extensions ['colcon_pkg']
+[0.814s] Level 1:colcon.colcon_core.package_identification:_identify(src/base_interfaces_demo) by extension 'colcon_pkg'
+[0.814s] Level 1:colcon.colcon_core.package_identification:_identify(src/base_interfaces_demo) by extensions ['colcon_meta']
+[0.814s] Level 1:colcon.colcon_core.package_identification:_identify(src/base_interfaces_demo) by extension 'colcon_meta'
+[0.814s] Level 1:colcon.colcon_core.package_identification:_identify(src/base_interfaces_demo) by extensions ['ros']
+[0.814s] Level 1:colcon.colcon_core.package_identification:_identify(src/base_interfaces_demo) by extension 'ros'
+[0.821s] DEBUG:colcon.colcon_core.package_identification:Package 'src/base_interfaces_demo' with type 'ros.ament_cmake' and name 'base_interfaces_demo'
+[0.822s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp01_topic) by extensions ['ignore', 'ignore_ament_install']
+[0.822s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp01_topic) by extension 'ignore'
+[0.823s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp01_topic) by extension 'ignore_ament_install'
+[0.823s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp01_topic) by extensions ['colcon_pkg']
+[0.823s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp01_topic) by extension 'colcon_pkg'
+[0.823s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp01_topic) by extensions ['colcon_meta']
+[0.823s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp01_topic) by extension 'colcon_meta'
+[0.824s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp01_topic) by extensions ['ros']
+[0.824s] Level 1:colcon.colcon_core.package_identification:_identify(src/cpp01_topic) by extension 'ros'
+[0.827s] DEBUG:colcon.colcon_core.package_identification:Package 'src/cpp01_topic' with type 'ros.ament_cmake' and name 'cpp01_topic'
+[0.827s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.827s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.827s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.828s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.828s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.870s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'base_interfaces_demo' in 'src/base_interfaces_demo'
+[0.871s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.871s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.875s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 2 installed packages in /home/jiaxin/test2/install
+[0.877s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 270 installed packages in /opt/ros/humble
+[0.879s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[1.024s] Level 5:colcon.colcon_core.verb:set package 'cpp01_topic' build argument 'cmake_args' from command line to 'None'
+[1.024s] Level 5:colcon.colcon_core.verb:set package 'cpp01_topic' build argument 'cmake_target' from command line to 'None'
+[1.024s] Level 5:colcon.colcon_core.verb:set package 'cpp01_topic' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.024s] Level 5:colcon.colcon_core.verb:set package 'cpp01_topic' build argument 'cmake_clean_cache' from command line to 'False'
+[1.024s] Level 5:colcon.colcon_core.verb:set package 'cpp01_topic' build argument 'cmake_clean_first' from command line to 'False'
+[1.025s] Level 5:colcon.colcon_core.verb:set package 'cpp01_topic' build argument 'cmake_force_configure' from command line to 'False'
+[1.025s] Level 5:colcon.colcon_core.verb:set package 'cpp01_topic' build argument 'ament_cmake_args' from command line to 'None'
+[1.025s] Level 5:colcon.colcon_core.verb:set package 'cpp01_topic' build argument 'catkin_cmake_args' from command line to 'None'
+[1.025s] Level 5:colcon.colcon_core.verb:set package 'cpp01_topic' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.025s] DEBUG:colcon.colcon_core.verb:Building package 'cpp01_topic' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/jiaxin/test2/build/cpp01_topic', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/jiaxin/test2/install/cpp01_topic', 'merge_install': False, 'path': '/home/jiaxin/test2/src/cpp01_topic', 'symlink_install': False, 'test_result_base': None}
+[1.027s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[1.032s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[1.033s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/jiaxin/test2/src/cpp01_topic' with build type 'ament_cmake'
+[1.033s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/jiaxin/test2/src/cpp01_topic'
+[1.046s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.047s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.047s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.182s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jiaxin/test2/build/cpp01_topic': CMAKE_PREFIX_PATH=/home/jiaxin/test2/install/base_interfaces_demo:/home/jiaxin/test2/install/cpp01_topic:/opt/ros/humble /usr/bin/cmake --build /home/jiaxin/test2/build/cpp01_topic -- -j4 -l4
+[22.329s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jiaxin/test2/build/cpp01_topic' returned '0': CMAKE_PREFIX_PATH=/home/jiaxin/test2/install/base_interfaces_demo:/home/jiaxin/test2/install/cpp01_topic:/opt/ros/humble /usr/bin/cmake --build /home/jiaxin/test2/build/cpp01_topic -- -j4 -l4
+[22.381s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/jiaxin/test2/build/cpp01_topic': CMAKE_PREFIX_PATH=/home/jiaxin/test2/install/base_interfaces_demo:/home/jiaxin/test2/install/cpp01_topic:/opt/ros/humble /usr/bin/cmake --install /home/jiaxin/test2/build/cpp01_topic
+[22.406s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cpp01_topic)
+[22.414s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/jiaxin/test2/build/cpp01_topic' returned '0': CMAKE_PREFIX_PATH=/home/jiaxin/test2/install/base_interfaces_demo:/home/jiaxin/test2/install/cpp01_topic:/opt/ros/humble /usr/bin/cmake --install /home/jiaxin/test2/build/cpp01_topic
+[22.423s] Level 1:colcon.colcon_core.environment:checking '/home/jiaxin/test2/install/cpp01_topic' for CMake module files
+[22.424s] Level 1:colcon.colcon_core.environment:checking '/home/jiaxin/test2/install/cpp01_topic' for CMake config files
+[22.425s] Level 1:colcon.colcon_core.shell:create_environment_hook('cpp01_topic', 'cmake_prefix_path')
+[22.428s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jiaxin/test2/install/cpp01_topic/share/cpp01_topic/hook/cmake_prefix_path.ps1'
+[22.429s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jiaxin/test2/install/cpp01_topic/share/cpp01_topic/hook/cmake_prefix_path.dsv'
+[22.431s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jiaxin/test2/install/cpp01_topic/share/cpp01_topic/hook/cmake_prefix_path.sh'
+[22.433s] Level 1:colcon.colcon_core.environment:checking '/home/jiaxin/test2/install/cpp01_topic/lib'
+[22.434s] Level 1:colcon.colcon_core.environment:checking '/home/jiaxin/test2/install/cpp01_topic/bin'
+[22.434s] Level 1:colcon.colcon_core.environment:checking '/home/jiaxin/test2/install/cpp01_topic/lib/pkgconfig/cpp01_topic.pc'
+[22.435s] Level 1:colcon.colcon_core.environment:checking '/home/jiaxin/test2/install/cpp01_topic/lib/python3.10/site-packages'
+[22.435s] Level 1:colcon.colcon_core.environment:checking '/home/jiaxin/test2/install/cpp01_topic/bin'
+[22.438s] INFO:colcon.colcon_core.shell:Creating package script '/home/jiaxin/test2/install/cpp01_topic/share/cpp01_topic/package.ps1'
+[22.440s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jiaxin/test2/install/cpp01_topic/share/cpp01_topic/package.dsv'
+[22.441s] INFO:colcon.colcon_core.shell:Creating package script '/home/jiaxin/test2/install/cpp01_topic/share/cpp01_topic/package.sh'
+[22.443s] INFO:colcon.colcon_core.shell:Creating package script '/home/jiaxin/test2/install/cpp01_topic/share/cpp01_topic/package.bash'
+[22.445s] INFO:colcon.colcon_core.shell:Creating package script '/home/jiaxin/test2/install/cpp01_topic/share/cpp01_topic/package.zsh'
+[22.447s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jiaxin/test2/install/cpp01_topic/share/colcon-core/packages/cpp01_topic)
+[22.499s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(cpp01_topic)
+[22.501s] Level 1:colcon.colcon_core.environment:checking '/home/jiaxin/test2/install/cpp01_topic' for CMake module files
+[22.502s] Level 1:colcon.colcon_core.environment:checking '/home/jiaxin/test2/install/cpp01_topic' for CMake config files
+[22.502s] Level 1:colcon.colcon_core.shell:create_environment_hook('cpp01_topic', 'cmake_prefix_path')
+[22.504s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jiaxin/test2/install/cpp01_topic/share/cpp01_topic/hook/cmake_prefix_path.ps1'
+[22.505s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/jiaxin/test2/install/cpp01_topic/share/cpp01_topic/hook/cmake_prefix_path.dsv'
+[22.505s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/jiaxin/test2/install/cpp01_topic/share/cpp01_topic/hook/cmake_prefix_path.sh'
+[22.506s] Level 1:colcon.colcon_core.environment:checking '/home/jiaxin/test2/install/cpp01_topic/lib'
+[22.506s] Level 1:colcon.colcon_core.environment:checking '/home/jiaxin/test2/install/cpp01_topic/bin'
+[22.507s] Level 1:colcon.colcon_core.environment:checking '/home/jiaxin/test2/install/cpp01_topic/lib/pkgconfig/cpp01_topic.pc'
+[22.507s] Level 1:colcon.colcon_core.environment:checking '/home/jiaxin/test2/install/cpp01_topic/lib/python3.10/site-packages'
+[22.507s] Level 1:colcon.colcon_core.environment:checking '/home/jiaxin/test2/install/cpp01_topic/bin'
+[22.509s] INFO:colcon.colcon_core.shell:Creating package script '/home/jiaxin/test2/install/cpp01_topic/share/cpp01_topic/package.ps1'
+[22.510s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/jiaxin/test2/install/cpp01_topic/share/cpp01_topic/package.dsv'
+[22.511s] INFO:colcon.colcon_core.shell:Creating package script '/home/jiaxin/test2/install/cpp01_topic/share/cpp01_topic/package.sh'
+[22.512s] INFO:colcon.colcon_core.shell:Creating package script '/home/jiaxin/test2/install/cpp01_topic/share/cpp01_topic/package.bash'
+[22.514s] INFO:colcon.colcon_core.shell:Creating package script '/home/jiaxin/test2/install/cpp01_topic/share/cpp01_topic/package.zsh'
+[22.515s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/jiaxin/test2/install/cpp01_topic/share/colcon-core/packages/cpp01_topic)
+[22.517s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[22.518s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[22.519s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[22.519s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[22.617s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[22.618s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[22.618s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[22.618s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[22.649s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[22.650s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[22.654s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jiaxin/test2/install/local_setup.ps1'
+[22.657s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/jiaxin/test2/install/_local_setup_util_ps1.py'
+[22.660s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jiaxin/test2/install/setup.ps1'
+[22.664s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jiaxin/test2/install/local_setup.sh'
+[22.668s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/jiaxin/test2/install/_local_setup_util_sh.py'
+[22.669s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jiaxin/test2/install/setup.sh'
+[22.672s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jiaxin/test2/install/local_setup.bash'
+[22.674s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jiaxin/test2/install/setup.bash'
+[22.678s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/jiaxin/test2/install/local_setup.zsh'
+[22.680s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/jiaxin/test2/install/setup.zsh'

@@ -1,0 +1,64 @@
+[01m[K/home/jiaxin/test2/src/cpp01_topic/src/demo02_transfer.cpp:[m[K In member function ‘[01m[Kvoid Transfer::do_cb(const OutputIPARAAPIFnct&) const[m[K’:
+[01m[K/home/jiaxin/test2/src/cpp01_topic/src/demo02_transfer.cpp:53:26:[m[K [01;31m[Kerror: [m[Kpassing ‘[01m[Kconst Transfer[m[K’ as ‘[01m[Kthis[m[K’ argument discards qualifiers [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+   53 |       [01;31m[Kthis->set_parameter(rclcpp::Parameter("Fahrer_bremst", input.driver_override_speed))[m[K;
+      |       [01;31m[K~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/jiaxin/test2/src/cpp01_topic/src/demo02_transfer.cpp:8[m[K:
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:555:3:[m[K [01;36m[Knote: [m[K  in call to ‘[01m[Krcl_interfaces::msg::SetParametersResult rclcpp::Node::set_parameter(const rclcpp::Parameter&)[m[K’
+  555 |   [01;36m[Kset_parameter[m[K(const rclcpp::Parameter & parameter);
+      |   [01;36m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/jiaxin/test2/src/cpp01_topic/src/demo02_transfer.cpp:54:26:[m[K [01;31m[Kerror: [m[Kpassing ‘[01m[Kconst Transfer[m[K’ as ‘[01m[Kthis[m[K’ argument discards qualifiers [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+   54 |       [01;31m[Kthis->set_parameter(rclcpp::Parameter("Fahrzeugzustand", input.fahrzeug_zustand))[m[K;
+      |       [01;31m[K~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/jiaxin/test2/src/cpp01_topic/src/demo02_transfer.cpp:8[m[K:
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:555:3:[m[K [01;36m[Knote: [m[K  in call to ‘[01m[Krcl_interfaces::msg::SetParametersResult rclcpp::Node::set_parameter(const rclcpp::Parameter&)[m[K’
+  555 |   [01;36m[Kset_parameter[m[K(const rclcpp::Parameter & parameter);
+      |   [01;36m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/jiaxin/test2/src/cpp01_topic/src/demo02_transfer.cpp:55:26:[m[K [01;31m[Kerror: [m[Kpassing ‘[01m[Kconst Transfer[m[K’ as ‘[01m[Kthis[m[K’ argument discards qualifiers [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+   55 |       [01;31m[Kthis->set_parameter(rclcpp::Parameter("Heartbeat_out", input.heartbeat_out))[m[K;
+      |       [01;31m[K~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/jiaxin/test2/src/cpp01_topic/src/demo02_transfer.cpp:8[m[K:
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:555:3:[m[K [01;36m[Knote: [m[K  in call to ‘[01m[Krcl_interfaces::msg::SetParametersResult rclcpp::Node::set_parameter(const rclcpp::Parameter&)[m[K’
+  555 |   [01;36m[Kset_parameter[m[K(const rclcpp::Parameter & parameter);
+      |   [01;36m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/jiaxin/test2/src/cpp01_topic/src/demo02_transfer.cpp:56:26:[m[K [01;31m[Kerror: [m[Kpassing ‘[01m[Kconst Transfer[m[K’ as ‘[01m[Kthis[m[K’ argument discards qualifiers [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+   56 |       [01;31m[Kthis->set_parameter(rclcpp::Parameter("GearChangePossible", input.heartbeat_out))[m[K;
+      |       [01;31m[K~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/jiaxin/test2/src/cpp01_topic/src/demo02_transfer.cpp:8[m[K:
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:555:3:[m[K [01;36m[Knote: [m[K  in call to ‘[01m[Krcl_interfaces::msg::SetParametersResult rclcpp::Node::set_parameter(const rclcpp::Parameter&)[m[K’
+  555 |   [01;36m[Kset_parameter[m[K(const rclcpp::Parameter & parameter);
+      |   [01;36m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/jiaxin/test2/src/cpp01_topic/src/demo02_transfer.cpp:57:26:[m[K [01;31m[Kerror: [m[Kpassing ‘[01m[Kconst Transfer[m[K’ as ‘[01m[Kthis[m[K’ argument discards qualifiers [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+   57 |       [01;31m[Kthis->set_parameter(rclcpp::Parameter("EmergencyBreak", input.status_emergency_stop))[m[K;
+      |       [01;31m[K~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/jiaxin/test2/src/cpp01_topic/src/demo02_transfer.cpp:8[m[K:
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:555:3:[m[K [01;36m[Knote: [m[K  in call to ‘[01m[Krcl_interfaces::msg::SetParametersResult rclcpp::Node::set_parameter(const rclcpp::Parameter&)[m[K’
+  555 |   [01;36m[Kset_parameter[m[K(const rclcpp::Parameter & parameter);
+      |   [01;36m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/jiaxin/test2/src/cpp01_topic/src/demo02_transfer.cpp:58:26:[m[K [01;31m[Kerror: [m[Kpassing ‘[01m[Kconst Transfer[m[K’ as ‘[01m[Kthis[m[K’ argument discards qualifiers [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+   58 |       [01;31m[Kthis->set_parameter(rclcpp::Parameter("StatusFehler", input.fehlerzustand))[m[K;
+      |       [01;31m[K~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/jiaxin/test2/src/cpp01_topic/src/demo02_transfer.cpp:8[m[K:
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:555:3:[m[K [01;36m[Knote: [m[K  in call to ‘[01m[Krcl_interfaces::msg::SetParametersResult rclcpp::Node::set_parameter(const rclcpp::Parameter&)[m[K’
+  555 |   [01;36m[Kset_parameter[m[K(const rclcpp::Parameter & parameter);
+      |   [01;36m[K^~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/demo02_transfer.dir/build.make:76: CMakeFiles/demo02_transfer.dir/src/demo02_transfer.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:167: CMakeFiles/demo02_transfer.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

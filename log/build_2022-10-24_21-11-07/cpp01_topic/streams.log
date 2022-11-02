@@ -1,0 +1,77 @@
+[0.183s] Invoking command in '/home/jiaxin/test2/build/cpp01_topic': CMAKE_PREFIX_PATH=/home/jiaxin/test2/install/base_interfaces_demo:/home/jiaxin/test2/install/cpp01_topic:/opt/ros/humble /usr/bin/cmake --build /home/jiaxin/test2/build/cpp01_topic -- -j4 -l4
+[0.305s] [35m[1mConsolidate compiler generated dependencies of target demo03_listener[0m
+[0.334s] [ 33%] Built target demo02_transfer
+[0.343s] [ 66%] Built target demo01_talker
+[0.372s] [ 83%] [32mBuilding CXX object CMakeFiles/demo03_listener.dir/src/demo03_listener.cpp.o[0m
+[6.838s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[6.839s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[6.839s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:23[m[K,
+[6.839s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[6.840s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[6.840s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[6.840s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[6.840s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[6.842s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[6.843s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[6.843s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[6.844s]                  from [01m[K/home/jiaxin/test2/src/cpp01_topic/src/demo03_listener.cpp:6[m[K:
+[6.844s] [01m[K/home/jiaxin/test2/src/cpp01_topic/src/demo03_listener.cpp:[m[K In member function ‘[01m[Kvoid ListenerOut::do_cb(const InputIPARAAPIFnct&) const[m[K’:
+[6.845s] [01m[K/home/jiaxin/test2/src/cpp01_topic/src/demo03_listener.cpp:26:39:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 6 has type ‘[01m[Kdouble[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[6.845s]    26 |       RCLCPP_INFO(this->get_logger(), [01;35m[K"Output:change_gear_position=%d,accel_des=%d,steering_angle=%d"[m[K, output.change_gear_position,[32m[Koutput.accel_des[m[K,output.steering_angle);
+[6.845s]       |                                       [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K                              [32m[K~~~~~~~~~~~~~~~~[m[K
+[6.845s]       |                                                                                                                                           [32m[K|[m[K
+[6.846s]       |                                                                                                                                           [32m[Kdouble[m[K
+[6.846s] [01m[K/home/jiaxin/test2/src/cpp01_topic/src/demo03_listener.cpp:26:82:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[6.846s]    26 |       RCLCPP_INFO(this->get_logger(), "Output:change_gear_position=%d,accel_des=[01;36m[K%d[m[K,steering_angle=%d", output.change_gear_position,output.accel_des,output.steering_angle);
+[6.846s]       |                                                                                 [01;36m[K~^[m[K
+[6.847s]       |                                                                                  [01;36m[K|[m[K
+[6.847s]       |                                                                                  [01;36m[Kint[m[K
+[6.847s]       |                                                                                 [32m[K%f[m[K
+[6.847s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[6.848s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[6.848s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:23[m[K,
+[6.848s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[6.848s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[6.848s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[6.849s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[6.849s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[6.849s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[6.849s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[6.850s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[6.851s]                  from [01m[K/home/jiaxin/test2/src/cpp01_topic/src/demo03_listener.cpp:6[m[K:
+[6.851s] [01m[K/home/jiaxin/test2/src/cpp01_topic/src/demo03_listener.cpp:26:39:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 7 has type ‘[01m[Kdouble[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+[6.851s]    26 |       RCLCPP_INFO(this->get_logger(), [01;35m[K"Output:change_gear_position=%d,accel_des=%d,steering_angle=%d"[m[K, output.change_gear_position,output.accel_des,[32m[Koutput.steering_angle[m[K);
+[6.853s]       |                                       [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K                                               [32m[K~~~~~~~~~~~~~~~~~~~~~[m[K
+[6.853s]       |                                                                                                                                                            [32m[K|[m[K
+[6.853s]       |                                                                                                                                                            [32m[Kdouble[m[K
+[6.853s] [01m[K/home/jiaxin/test2/src/cpp01_topic/src/demo03_listener.cpp:26:100:[m[K [01;36m[Knote: [m[Kformat string is defined here
+[6.854s]    26 |       RCLCPP_INFO(this->get_logger(), "Output:change_gear_position=%d,accel_des=%d,steering_angle=[01;36m[K%d[m[K", output.change_gear_position,output.accel_des,output.steering_angle);
+[6.854s]       |                                                                                                   [01;36m[K~^[m[K
+[6.854s]       |                                                                                                    [01;36m[K|[m[K
+[6.854s]       |                                                                                                    [01;36m[Kint[m[K
+[6.855s]       |                                                                                                   [32m[K%f[m[K
+[16.540s] [100%] [32m[1mLinking CXX executable demo03_listener[0m
+[17.688s] [100%] Built target demo03_listener
+[17.707s] Invoked command in '/home/jiaxin/test2/build/cpp01_topic' returned '0': CMAKE_PREFIX_PATH=/home/jiaxin/test2/install/base_interfaces_demo:/home/jiaxin/test2/install/cpp01_topic:/opt/ros/humble /usr/bin/cmake --build /home/jiaxin/test2/build/cpp01_topic -- -j4 -l4
+[17.762s] Invoking command in '/home/jiaxin/test2/build/cpp01_topic': CMAKE_PREFIX_PATH=/home/jiaxin/test2/install/base_interfaces_demo:/home/jiaxin/test2/install/cpp01_topic:/opt/ros/humble /usr/bin/cmake --install /home/jiaxin/test2/build/cpp01_topic
+[17.770s] -- Install configuration: ""
+[17.770s] -- Up-to-date: /home/jiaxin/test2/install/cpp01_topic/lib/cpp01_topic/demo01_talker
+[17.771s] -- Up-to-date: /home/jiaxin/test2/install/cpp01_topic/lib/cpp01_topic/demo02_transfer
+[17.771s] -- Installing: /home/jiaxin/test2/install/cpp01_topic/lib/cpp01_topic/demo03_listener
+[17.880s] -- Set runtime path of "/home/jiaxin/test2/install/cpp01_topic/lib/cpp01_topic/demo03_listener" to ""
+[17.880s] -- Up-to-date: /home/jiaxin/test2/install/cpp01_topic/share/ament_index/resource_index/package_run_dependencies/cpp01_topic
+[17.880s] -- Up-to-date: /home/jiaxin/test2/install/cpp01_topic/share/ament_index/resource_index/parent_prefix_path/cpp01_topic
+[17.881s] -- Up-to-date: /home/jiaxin/test2/install/cpp01_topic/share/cpp01_topic/environment/ament_prefix_path.sh
+[17.881s] -- Up-to-date: /home/jiaxin/test2/install/cpp01_topic/share/cpp01_topic/environment/ament_prefix_path.dsv
+[17.881s] -- Up-to-date: /home/jiaxin/test2/install/cpp01_topic/share/cpp01_topic/environment/path.sh
+[17.882s] -- Up-to-date: /home/jiaxin/test2/install/cpp01_topic/share/cpp01_topic/environment/path.dsv
+[17.882s] -- Up-to-date: /home/jiaxin/test2/install/cpp01_topic/share/cpp01_topic/local_setup.bash
+[17.882s] -- Up-to-date: /home/jiaxin/test2/install/cpp01_topic/share/cpp01_topic/local_setup.sh
+[17.883s] -- Up-to-date: /home/jiaxin/test2/install/cpp01_topic/share/cpp01_topic/local_setup.zsh
+[17.883s] -- Up-to-date: /home/jiaxin/test2/install/cpp01_topic/share/cpp01_topic/local_setup.dsv
+[17.883s] -- Installing: /home/jiaxin/test2/install/cpp01_topic/share/cpp01_topic/package.dsv
+[17.883s] -- Up-to-date: /home/jiaxin/test2/install/cpp01_topic/share/ament_index/resource_index/packages/cpp01_topic
+[17.884s] -- Up-to-date: /home/jiaxin/test2/install/cpp01_topic/share/cpp01_topic/cmake/cpp01_topicConfig.cmake
+[17.886s] -- Up-to-date: /home/jiaxin/test2/install/cpp01_topic/share/cpp01_topic/cmake/cpp01_topicConfig-version.cmake
+[17.890s] -- Up-to-date: /home/jiaxin/test2/install/cpp01_topic/share/cpp01_topic/package.xml
+[17.890s] Invoked command in '/home/jiaxin/test2/build/cpp01_topic' returned '0': CMAKE_PREFIX_PATH=/home/jiaxin/test2/install/base_interfaces_demo:/home/jiaxin/test2/install/cpp01_topic:/opt/ros/humble /usr/bin/cmake --install /home/jiaxin/test2/build/cpp01_topic

@@ -1,0 +1,71 @@
+[35m[1mConsolidate compiler generated dependencies of target demo01_talker[0m
+[ 16%] [32mBuilding CXX object CMakeFiles/demo03_listener.dir/src/demo03_listener.cpp.o[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/demo02_transfer.dir/src/demo02_transfer.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/demo01_talker.dir/src/demo01_talker.cpp.o[0m
+[01m[K/home/jiaxin/test2/src/cpp01_topic/src/demo03_listener.cpp:[m[K In constructor ‘[01m[KListenerOut::ListenerOut()[m[K’:
+[01m[K/home/jiaxin/test2/src/cpp01_topic/src/demo03_listener.cpp:20:67:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KListenerOut::create_subscription<base_interfaces_demo::msg::InputIPARAAPIFnct>(const char [8], std::_Bind_helper<false, void (ListenerOut::*)(const base_interfaces_demo::msg::InputIPARAAPIFnct_<std::allocator<void> >&) const, ListenerOut*, const std::_Placeholder<1>&>::type)[m[K’
+   20 |       subscription_ = [01;31m[Kthis->create_subscription<InputIPARAAPIFnct>("sub_out", std::bind(&ListenerOut::do_cb, this, _1))[m[K;
+      |                       [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/jiaxin/test2/src/cpp01_topic/src/demo03_listener.cpp:6[m[K:
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:219:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class MessageT, class CallbackT, class AllocatorT, class SubscriptionT, class MessageMemoryStrategyT> std::shared_ptr<ROSMessageT> rclcpp::Node::create_subscription(const string&, const rclcpp::QoS&, CallbackT&&, const rclcpp::SubscriptionOptionsWithAllocator<AllocatorT>&, typename MessageMemoryStrategyT::SharedPtr)[m[K’
+  219 |   [01;36m[Kcreate_subscription[m[K(
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:219:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/jiaxin/test2/src/cpp01_topic/src/demo03_listener.cpp:20:67:[m[K [01;36m[Knote: [m[K  candidate expects 5 arguments, 2 provided
+   20 |       subscription_ = [01;36m[Kthis->create_subscription<InputIPARAAPIFnct>("sub_out", std::bind(&ListenerOut::do_cb, this, _1))[m[K;
+      |                       [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/jiaxin/test2/src/cpp01_topic/src/demo02_transfer.cpp:[m[K In constructor ‘[01m[KTransfer::Transfer()[m[K’:
+[01m[K/home/jiaxin/test2/src/cpp01_topic/src/demo02_transfer.cpp:23:68:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KTransfer::create_subscription<base_interfaces_demo::msg::OutputIPARAAPIFnct>(const char [10], std::_Bind_helper<false, void (Transfer::*)(const base_interfaces_demo::msg::OutputIPARAAPIFnct_<std::allocator<void> >&) const, Transfer*, const std::_Placeholder<1>&>::type)[m[K’
+   23 |       subscription_ = [01;31m[Kthis->create_subscription<OutputIPARAAPIFnct>("pub_input", std::bind(&Transfer::do_cb, this, _1))[m[K;
+      |                       [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/jiaxin/test2/src/cpp01_topic/src/demo02_transfer.cpp:6[m[K:
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:219:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class MessageT, class CallbackT, class AllocatorT, class SubscriptionT, class MessageMemoryStrategyT> std::shared_ptr<ROSMessageT> rclcpp::Node::create_subscription(const string&, const rclcpp::QoS&, CallbackT&&, const rclcpp::SubscriptionOptionsWithAllocator<AllocatorT>&, typename MessageMemoryStrategyT::SharedPtr)[m[K’
+  219 |   [01;36m[Kcreate_subscription[m[K(
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:219:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/jiaxin/test2/src/cpp01_topic/src/demo02_transfer.cpp:23:68:[m[K [01;36m[Knote: [m[K  candidate expects 5 arguments, 2 provided
+   23 |       subscription_ = [01;36m[Kthis->create_subscription<OutputIPARAAPIFnct>("pub_input", std::bind(&Transfer::do_cb, this, _1))[m[K;
+      |                       [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/jiaxin/test2/src/cpp01_topic/src/demo02_transfer.cpp:26:61:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KTransfer::create_publisher<base_interfaces_demo::msg::InputIPARAAPIFnct>(const char [8])[m[K’
+   26 |       publisher_ = [01;31m[Kthis->create_publisher<InputIPARAAPIFnct>("sub_out")[m[K;
+      |                    [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/jiaxin/test2/src/cpp01_topic/src/demo02_transfer.cpp:6[m[K:
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:195:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class MessageT, class AllocatorT, class PublisherT> std::shared_ptr<PublisherT> rclcpp::Node::create_publisher(const string&, const rclcpp::QoS&, const rclcpp::PublisherOptionsWithAllocator<AllocatorT>&)[m[K’
+  195 |   [01;36m[Kcreate_publisher[m[K(
+      |   [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:195:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/jiaxin/test2/src/cpp01_topic/src/demo02_transfer.cpp:26:61:[m[K [01;36m[Knote: [m[K  candidate expects 3 arguments, 1 provided
+   26 |       publisher_ = [01;36m[Kthis->create_publisher<InputIPARAAPIFnct>("sub_out")[m[K;
+      |                    [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~[m[K
+[01m[K/home/jiaxin/test2/src/cpp01_topic/src/demo01_talker.cpp:[m[K In constructor ‘[01m[KTalkerIn::TalkerIn()[m[K’:
+[01m[K/home/jiaxin/test2/src/cpp01_topic/src/demo01_talker.cpp:20:62:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KTalkerIn::create_publisher<base_interfaces_demo::msg::OutputIPARAAPIFnct>(const char [10])[m[K’
+   20 |       publisher_ = [01;31m[Kthis->create_publisher<OutputIPARAAPIFnct>("pub_input")[m[K;
+      |                    [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/jiaxin/test2/src/cpp01_topic/src/demo01_talker.cpp:6[m[K:
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:195:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class MessageT, class AllocatorT, class PublisherT> std::shared_ptr<PublisherT> rclcpp::Node::create_publisher(const string&, const rclcpp::QoS&, const rclcpp::PublisherOptionsWithAllocator<AllocatorT>&)[m[K’
+  195 |   [01;36m[Kcreate_publisher[m[K(
+      |   [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:195:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/jiaxin/test2/src/cpp01_topic/src/demo01_talker.cpp:20:62:[m[K [01;36m[Knote: [m[K  candidate expects 3 arguments, 1 provided
+   20 |       publisher_ = [01;36m[Kthis->create_publisher<OutputIPARAAPIFnct>("pub_input")[m[K;
+      |                    [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/demo03_listener.dir/build.make:76: CMakeFiles/demo03_listener.dir/src/demo03_listener.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/demo03_listener.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+gmake[2]: *** [CMakeFiles/demo02_transfer.dir/build.make:76: CMakeFiles/demo02_transfer.dir/src/demo02_transfer.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:167: CMakeFiles/demo02_transfer.dir/all] Error 2
+gmake[2]: *** [CMakeFiles/demo01_talker.dir/build.make:76: CMakeFiles/demo01_talker.dir/src/demo01_talker.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:141: CMakeFiles/demo01_talker.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

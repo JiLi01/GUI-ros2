@@ -1,0 +1,12 @@
+[35m[1mConsolidate compiler generated dependencies of target demo02_transfer[0m
+[ 33%] Built target demo03_listener
+[ 66%] Built target demo01_talker
+[ 83%] [32mBuilding CXX object CMakeFiles/demo02_transfer.dir/src/demo02_transfer.cpp.o[0m
+[01m[K/home/jiaxin/test2/src/cpp01_topic/src/demo02_transfer.cpp:[m[K In member function ‘[01m[Kvoid Transfer::declare_param()[m[K’:
+[01m[K/home/jiaxin/test2/src/cpp01_topic/src/demo02_transfer.cpp:25:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kdescriptor[m[K’ was not declared in this scope; did you mean ‘[01m[Kacc_descriptor[m[K’?
+   25 |       [01;31m[Kdescriptor[m[K.floating_point_range.resize(1);
+      |       [01;31m[K^~~~~~~~~~[m[K
+      |       [32m[Kacc_descriptor[m[K
+gmake[2]: *** [CMakeFiles/demo02_transfer.dir/build.make:76: CMakeFiles/demo02_transfer.dir/src/demo02_transfer.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:167: CMakeFiles/demo02_transfer.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

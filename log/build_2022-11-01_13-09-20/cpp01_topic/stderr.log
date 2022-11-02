@@ -1,0 +1,20 @@
+[01m[K/home/jiaxin/test2/src/cpp01_topic/src/demo02_transfer.cpp:[m[K In member function ‘[01m[Kvoid Transfer::declare_param()[m[K’:
+[01m[K/home/jiaxin/test2/src/cpp01_topic/src/demo02_transfer.cpp:24:40:[m[K [01;31m[Kerror: [m[K‘[01m[Kfloating_point_range[m[K’ was not declared in this scope
+   24 |       descriptor = ParameterDescriptor([01;31m[Kfloating_point_range[m[K[0].from_value = 1.0, floating_point_range[0].to_value = 1000.0);
+      |                                        [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/jiaxin/test2/src/cpp01_topic/src/demo02_transfer.cpp:24:20:[m[K [01;31m[Kerror: [m[K‘[01m[KParameterDescriptor[m[K’ was not declared in this scope; did you mean ‘[01m[Krcl_interfaces::msg::ParameterDescriptor[m[K’?
+   24 |       descriptor = [01;31m[KParameterDescriptor[m[K(floating_point_range[0].from_value = 1.0, floating_point_range[0].to_value = 1000.0);
+      |                    [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+      |                    [32m[Krcl_interfaces::msg::ParameterDescriptor[m[K
+In file included from [01m[K/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/parameter_descriptor.hpp:7[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:36[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/jiaxin/test2/src/cpp01_topic/src/demo02_transfer.cpp:8[m[K:
+[01m[K/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_descriptor__struct.hpp:246:7:[m[K [01;36m[Knote: [m[K‘[01m[Krcl_interfaces::msg::ParameterDescriptor[m[K’ declared here
+  246 | using [01;36m[KParameterDescriptor[m[K =
+      |       [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/demo02_transfer.dir/build.make:76: CMakeFiles/demo02_transfer.dir/src/demo02_transfer.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:167: CMakeFiles/demo02_transfer.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

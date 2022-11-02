@@ -1,0 +1,18 @@
+[0.172s] Invoking command in '/home/jiaxin/test2/build/cpp01_topic': CMAKE_PREFIX_PATH=/home/jiaxin/test2/install/base_interfaces_demo:/home/jiaxin/test2/install/cpp01_topic:/opt/ros/humble /usr/bin/cmake --build /home/jiaxin/test2/build/cpp01_topic -- -j4 -l4
+[0.229s] [35m[1mConsolidate compiler generated dependencies of target demo02_transfer[0m
+[0.250s] [ 33%] Built target demo03_listener
+[0.252s] [ 66%] Built target demo01_talker
+[0.261s] [ 83%] [32mBuilding CXX object CMakeFiles/demo02_transfer.dir/src/demo02_transfer.cpp.o[0m
+[4.379s] [01m[K/home/jiaxin/test2/src/cpp01_topic/src/demo02_transfer.cpp:[m[K In constructor ‘[01m[KTransfer::Transfer()[m[K’:
+[4.380s] [01m[K/home/jiaxin/test2/src/cpp01_topic/src/demo02_transfer.cpp:23:27:[m[K [01;31m[Kerror: [m[Ka function-definition is not allowed here before ‘[01m[K{[m[K’ token
+[4.380s]    23 |       void declare_param()[01;31m[K{[m[K
+[4.380s]       |                           [01;31m[K^[m[K
+[4.413s] [01m[K/home/jiaxin/test2/src/cpp01_topic/src/demo02_transfer.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[4.414s] [01m[K/home/jiaxin/test2/src/cpp01_topic/src/demo02_transfer.cpp:119:18:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = class Transfer[m[K’ {aka ‘[01m[Kclass Transfer[m[K’} has no member named ‘[01m[Kdeclare_param[m[K’; did you mean ‘[01m[Kdeclare_parameter[m[K’?
+[4.414s]   119 |   transfer_node->[01;31m[Kdeclare_param[m[K();
+[4.414s]       |                  [01;31m[K^~~~~~~~~~~~~[m[K
+[4.415s]       |                  [32m[Kdeclare_parameter[m[K
+[8.458s] gmake[2]: *** [CMakeFiles/demo02_transfer.dir/build.make:76: CMakeFiles/demo02_transfer.dir/src/demo02_transfer.cpp.o] Error 1
+[8.459s] gmake[1]: *** [CMakeFiles/Makefile2:167: CMakeFiles/demo02_transfer.dir/all] Error 2
+[8.459s] gmake: *** [Makefile:146: all] Error 2
+[8.463s] Invoked command in '/home/jiaxin/test2/build/cpp01_topic' returned '2': CMAKE_PREFIX_PATH=/home/jiaxin/test2/install/base_interfaces_demo:/home/jiaxin/test2/install/cpp01_topic:/opt/ros/humble /usr/bin/cmake --build /home/jiaxin/test2/build/cpp01_topic -- -j4 -l4

@@ -1,0 +1,7 @@
+std_msgs/Header header
+uint8 driver_override_speed
+uint8 fahrzeug_zustand
+uint8 heartbeat_out
+uint8 gear_change_possible
+uint8 status_emergency_stop
+uint8 fehlerzustand 

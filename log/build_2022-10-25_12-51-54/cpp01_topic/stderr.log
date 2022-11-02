@@ -1,0 +1,7 @@
+[01m[K/home/jiaxin/test2/src/cpp01_topic/src/demo02_transfer.cpp:[m[K In constructor ‘[01m[KTransfer::Transfer()[m[K’:
+[01m[K/home/jiaxin/test2/src/cpp01_topic/src/demo02_transfer.cpp:56:7:[m[K [01;31m[Kerror: [m[K‘[01m[Ktransfer_node[m[K’ was not declared in this scope
+   56 |       [01;31m[Ktransfer_node[m[K->declare_param();
+      |       [01;31m[K^~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/demo02_transfer.dir/build.make:76: CMakeFiles/demo02_transfer.dir/src/demo02_transfer.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:167: CMakeFiles/demo02_transfer.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

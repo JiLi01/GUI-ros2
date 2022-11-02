@@ -1,0 +1,74 @@
+[35m[1mConsolidate compiler generated dependencies of target demo03_listener[0m
+[ 33%] Built target demo01_talker
+[ 66%] Built target demo02_transfer
+[ 83%] [32mBuilding CXX object CMakeFiles/demo03_listener.dir/src/demo03_listener.cpp.o[0m
+[01m[K/home/jiaxin/test2/src/cpp01_topic/src/demo03_listener.cpp:10:34:[m[K [01;31m[Kerror: [m[K‘[01m[KInputIPARAAPIFnct[m[K’ has not been declared in ‘[01m[Kbase_interfaces_demo::msg[m[K’
+   10 | using base_interfaces_demo::msg::[01;31m[KInputIPARAAPIFnct[m[K;
+      |                                  [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/jiaxin/test2/src/cpp01_topic/src/demo03_listener.cpp:24:22:[m[K [01;31m[Kerror: [m[K‘[01m[KInputIPARAAPIFnct[m[K’ does not name a type
+   24 |     void do_cb(const [01;31m[KInputIPARAAPIFnct[m[K & output) const
+      |                      [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/jiaxin/test2/src/cpp01_topic/src/demo03_listener.cpp:28:26:[m[K [01;31m[Kerror: [m[K‘[01m[KInputIPARAAPIFnct[m[K’ was not declared in this scope
+   28 |     rclcpp::Subscription<[01;31m[KInputIPARAAPIFnct[m[K>::SharedPtr subscription_;
+      |                          [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/jiaxin/test2/src/cpp01_topic/src/demo03_listener.cpp:28:43:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   28 |     rclcpp::Subscription<InputIPARAAPIFnct[01;31m[K>[m[K::SharedPtr subscription_;
+      |                                           [01;31m[K^[m[K
+[01m[K/home/jiaxin/test2/src/cpp01_topic/src/demo03_listener.cpp:28:43:[m[K [01;31m[Kerror: [m[Ktemplate argument 3 is invalid
+[01m[K/home/jiaxin/test2/src/cpp01_topic/src/demo03_listener.cpp:28:43:[m[K [01;31m[Kerror: [m[Ktemplate argument 4 is invalid
+[01m[K/home/jiaxin/test2/src/cpp01_topic/src/demo03_listener.cpp:28:43:[m[K [01;31m[Kerror: [m[Ktemplate argument 5 is invalid
+[01m[K/home/jiaxin/test2/src/cpp01_topic/src/demo03_listener.cpp:28:46:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   28 |     rclcpp::Subscription<InputIPARAAPIFnct>::[01;31m[KSharedPtr[m[K subscription_;
+      |                                              [01;31m[K^~~~~~~~~[m[K
+      |                                                       [32m[K;[m[K
+[01m[K/home/jiaxin/test2/src/cpp01_topic/src/demo03_listener.cpp:28:56:[m[K [01;31m[Kerror: [m[K‘[01m[Ksubscription_[m[K’ does not name a type; did you mean ‘[01m[Krmw_subscription_t[m[K’?
+   28 |     rclcpp::Subscription<InputIPARAAPIFnct>::SharedPtr [01;31m[Ksubscription_[m[K;
+      |                                                        [01;31m[K^~~~~~~~~~~~~[m[K
+      |                                                        [32m[Krmw_subscription_t[m[K
+[01m[K/home/jiaxin/test2/src/cpp01_topic/src/demo03_listener.cpp:[m[K In constructor ‘[01m[KListenerOut::ListenerOut()[m[K’:
+[01m[K/home/jiaxin/test2/src/cpp01_topic/src/demo03_listener.cpp:19:7:[m[K [01;31m[Kerror: [m[K‘[01m[Ksubscription_[m[K’ was not declared in this scope; did you mean ‘[01m[Krmw_subscription_t[m[K’?
+   19 |       [01;31m[Ksubscription_[m[K = this->create_subscription<InputIPARAAPIFnct>("sub_out", 10, std::bind(&ListenerOut::do_cb, this, _1));
+      |       [01;31m[K^~~~~~~~~~~~~[m[K
+      |       [32m[Krmw_subscription_t[m[K
+[01m[K/home/jiaxin/test2/src/cpp01_topic/src/demo03_listener.cpp:19:49:[m[K [01;31m[Kerror: [m[K‘[01m[KInputIPARAAPIFnct[m[K’ was not declared in this scope
+   19 |       subscription_ = this->create_subscription<[01;31m[KInputIPARAAPIFnct[m[K>("sub_out", 10, std::bind(&ListenerOut::do_cb, this, _1));
+      |                                                 [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/jiaxin/test2/src/cpp01_topic/src/demo03_listener.cpp:19:67:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KListenerOut::create_subscription<<expression error> >(const char [8], int, std::_Bind_helper<false, void (ListenerOut::*)(const int&) const, ListenerOut*, const std::_Placeholder<1>&>::type)[m[K’
+   19 |       subscription_ = [01;31m[Kthis->create_subscription<InputIPARAAPIFnct>("sub_out", 10, std::bind(&ListenerOut::do_cb, this, _1))[m[K;
+      |                       [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/jiaxin/test2/src/cpp01_topic/src/demo03_listener.cpp:6[m[K:
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:219:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class MessageT, class CallbackT, class AllocatorT, class SubscriptionT, class MessageMemoryStrategyT> std::shared_ptr<ROSMessageT> rclcpp::Node::create_subscription(const string&, const rclcpp::QoS&, CallbackT&&, const rclcpp::SubscriptionOptionsWithAllocator<AllocatorT>&, typename MessageMemoryStrategyT::SharedPtr)[m[K’
+  219 |   [01;36m[Kcreate_subscription[m[K(
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:219:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/jiaxin/test2/src/cpp01_topic/src/demo03_listener.cpp:19:67:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   19 |       subscription_ = [01;31m[Kthis->create_subscription<InputIPARAAPIFnct>("sub_out", 10, std::bind(&ListenerOut::do_cb, this, _1))[m[K;
+      |                       [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:23[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/jiaxin/test2/src/cpp01_topic/src/demo03_listener.cpp:6[m[K:
+[01m[K/home/jiaxin/test2/src/cpp01_topic/src/demo03_listener.cpp:[m[K In member function ‘[01m[Kvoid ListenerOut::do_cb(const int&) const[m[K’:
+[01m[K/home/jiaxin/test2/src/cpp01_topic/src/demo03_listener.cpp:26:111:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kchange_gear_position[m[K’ in ‘[01m[Koutput[m[K’, which is of non-class type ‘[01m[Kconst int[m[K’
+   26 |       RCLCPP_INFO(this->get_logger(), "Output:change_gear_position=%d,accel_des=%d,steering_angle=%d", output.[01;31m[Kchange_gear_position[m[K,output.accel_des,output.steering_angle);
+      |                                                                                                               [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/jiaxin/test2/src/cpp01_topic/src/demo03_listener.cpp:26:139:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kaccel_des[m[K’ in ‘[01m[Koutput[m[K’, which is of non-class type ‘[01m[Kconst int[m[K’
+   26 |       RCLCPP_INFO(this->get_logger(), "Output:change_gear_position=%d,accel_des=%d,steering_angle=%d", output.change_gear_position,output.[01;31m[Kaccel_des[m[K,output.steering_angle);
+      |                                                                                                                                           [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/jiaxin/test2/src/cpp01_topic/src/demo03_listener.cpp:26:156:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Ksteering_angle[m[K’ in ‘[01m[Koutput[m[K’, which is of non-class type ‘[01m[Kconst int[m[K’
+   26 |       RCLCPP_INFO(this->get_logger(), "Output:change_gear_position=%d,accel_des=%d,steering_angle=%d", output.change_gear_position,output.accel_des,output.[01;31m[Ksteering_angle[m[K);
+      |                                                                                                                                                            [01;31m[K^~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/demo03_listener.dir/build.make:76: CMakeFiles/demo03_listener.dir/src/demo03_listener.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/demo03_listener.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

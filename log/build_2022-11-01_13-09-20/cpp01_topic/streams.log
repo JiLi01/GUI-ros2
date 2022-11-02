@@ -1,0 +1,26 @@
+[0.202s] Invoking command in '/home/jiaxin/test2/build/cpp01_topic': CMAKE_PREFIX_PATH=/home/jiaxin/test2/install/base_interfaces_demo:/home/jiaxin/test2/install/cpp01_topic:/opt/ros/humble /usr/bin/cmake --build /home/jiaxin/test2/build/cpp01_topic -- -j4 -l4
+[0.262s] [35m[1mConsolidate compiler generated dependencies of target demo02_transfer[0m
+[0.280s] [ 33%] Built target demo03_listener
+[0.282s] [ 66%] Built target demo01_talker
+[0.289s] [ 83%] [32mBuilding CXX object CMakeFiles/demo02_transfer.dir/src/demo02_transfer.cpp.o[0m
+[5.301s] [01m[K/home/jiaxin/test2/src/cpp01_topic/src/demo02_transfer.cpp:[m[K In member function ‘[01m[Kvoid Transfer::declare_param()[m[K’:
+[5.301s] [01m[K/home/jiaxin/test2/src/cpp01_topic/src/demo02_transfer.cpp:24:40:[m[K [01;31m[Kerror: [m[K‘[01m[Kfloating_point_range[m[K’ was not declared in this scope
+[5.302s]    24 |       descriptor = ParameterDescriptor([01;31m[Kfloating_point_range[m[K[0].from_value = 1.0, floating_point_range[0].to_value = 1000.0);
+[5.303s]       |                                        [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[5.303s] [01m[K/home/jiaxin/test2/src/cpp01_topic/src/demo02_transfer.cpp:24:20:[m[K [01;31m[Kerror: [m[K‘[01m[KParameterDescriptor[m[K’ was not declared in this scope; did you mean ‘[01m[Krcl_interfaces::msg::ParameterDescriptor[m[K’?
+[5.304s]    24 |       descriptor = [01;31m[KParameterDescriptor[m[K(floating_point_range[0].from_value = 1.0, floating_point_range[0].to_value = 1000.0);
+[5.304s]       |                    [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[5.305s]       |                    [32m[Krcl_interfaces::msg::ParameterDescriptor[m[K
+[5.305s] In file included from [01m[K/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/parameter_descriptor.hpp:7[m[K,
+[5.306s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:36[m[K,
+[5.306s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[5.306s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[5.307s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[5.307s]                  from [01m[K/home/jiaxin/test2/src/cpp01_topic/src/demo02_transfer.cpp:8[m[K:
+[5.308s] [01m[K/opt/ros/humble/include/rcl_interfaces/rcl_interfaces/msg/detail/parameter_descriptor__struct.hpp:246:7:[m[K [01;36m[Knote: [m[K‘[01m[Krcl_interfaces::msg::ParameterDescriptor[m[K’ declared here
+[5.308s]   246 | using [01;36m[KParameterDescriptor[m[K =
+[5.308s]       |       [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[10.578s] gmake[2]: *** [CMakeFiles/demo02_transfer.dir/build.make:76: CMakeFiles/demo02_transfer.dir/src/demo02_transfer.cpp.o] Error 1
+[10.578s] gmake[1]: *** [CMakeFiles/Makefile2:167: CMakeFiles/demo02_transfer.dir/all] Error 2
+[10.579s] gmake: *** [Makefile:146: all] Error 2
+[10.582s] Invoked command in '/home/jiaxin/test2/build/cpp01_topic' returned '2': CMAKE_PREFIX_PATH=/home/jiaxin/test2/install/base_interfaces_demo:/home/jiaxin/test2/install/cpp01_topic:/opt/ros/humble /usr/bin/cmake --build /home/jiaxin/test2/build/cpp01_topic -- -j4 -l4

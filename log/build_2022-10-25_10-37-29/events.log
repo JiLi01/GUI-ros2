@@ -1,0 +1,206 @@
+[0.000000] (-) TimerEvent: {}
+[0.001691] (-) JobUnselected: {'identifier': 'base_interfaces_demo'}
+[0.002575] (cpp01_topic) JobQueued: {'identifier': 'cpp01_topic', 'dependencies': OrderedDict([('base_interfaces_demo', '/home/jiaxin/test2/install/base_interfaces_demo')])}
+[0.002795] (cpp01_topic) JobStarted: {'identifier': 'cpp01_topic'}
+[0.098555] (-) TimerEvent: {}
+[0.199116] (-) TimerEvent: {}
+[0.257246] (cpp01_topic) JobProgress: {'identifier': 'cpp01_topic', 'progress': 'cmake'}
+[0.259573] (cpp01_topic) JobProgress: {'identifier': 'cpp01_topic', 'progress': 'build'}
+[0.262176] (cpp01_topic) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/jiaxin/test2/build/cpp01_topic', '--', '-j4', '-l4'], 'cwd': '/home/jiaxin/test2/build/cpp01_topic', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'jiaxin'), ('GIT_ASKPASS', '/home/jiaxin/.vscode-server/bin/d045a5eda657f4d7b676dedbfa7aab8207f8a075/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/jiaxin/test2/install/base_interfaces_demo/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('WT_PROFILE_ID', '{07b52e3e-de2c-5db4-bd2d-ba144ed6c273}'), ('MOTD_SHOWN', 'update-motd'), ('HOME', '/home/jiaxin'), ('TERM_PROGRAM_VERSION', '1.72.2'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-c4248e1d-8bfe-483c-9b29-28b93a3e82fe.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/jiaxin/.vscode-server/bin/d045a5eda657f4d7b676dedbfa7aab8207f8a075/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/jiaxin/.vscode-server/bin/d045a5eda657f4d7b676dedbfa7aab8207f8a075/node'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu-20.04'), ('COLCON_PREFIX_PATH', '/home/jiaxin/test2/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'jiaxin'), ('NAME', 'Code'), ('WSL_INTEROP', '/run/WSL/22854_interop'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/jiaxin/.vscode-server/bin/d045a5eda657f4d7b676dedbfa7aab8207f8a075/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files (x86)/Vector vFlash 6/Bin/Automation/:/mnt/c/Program Files/Python39/Scripts/:/mnt/c/Program Files/Python39/:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/Program Files (x86)/Intel/Intel(R) Management Engine Components/iCLS/:/mnt/c/Program Files/Intel/Intel(R) Management Engine Components/iCLS/:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files (x86)/Intel/Intel(R) Management Engine Components/DAL:/mnt/c/Program Files/Intel/Intel(R) Management Engine Components/DAL:/mnt/c/Program Files/Intel/WiFi/bin/:/mnt/c/Program Files/Common Files/Intel/WirelessCommon/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files (x86)/Vector CANdb++ 3.1/Exec32:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/nodejs/:/mnt/c/MinGW/bin:/mnt/c/Users/SJWZSYO/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin'), ('WT_SESSION', '4ced6dd7-7f4b-4094-8462-087c27c3a096'), ('DISPLAY', '172.28.224.1:0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/vscode-git-c3a1d30f32.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/jiaxin/test2/install/cpp01_topic:/home/jiaxin/test2/install/base_interfaces_demo:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/jiaxin/test2/build/cpp01_topic'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/jiaxin/test2/install/base_interfaces_demo/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('HOSTTYPE', 'x86_64'), ('CMAKE_PREFIX_PATH', '/home/jiaxin/test2/install/base_interfaces_demo:/home/jiaxin/test2/install/cpp01_topic:/opt/ros/humble'), ('WSLENV', 'ELECTRON_RUN_AS_NODE/w:WT_SESSION::WT_PROFILE_ID')]), 'shell': False}
+[0.299286] (-) TimerEvent: {}
+[0.372502] (cpp01_topic) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target demo02_transfer\x1b[0m\n'}
+[0.397659] (cpp01_topic) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding CXX object CMakeFiles/demo01_talker.dir/src/demo01_talker.cpp.o\x1b[0m\n'}
+[0.401693] (-) TimerEvent: {}
+[0.411189] (cpp01_topic) StdoutLine: {'line': b'[ 50%] Built target demo03_listener\n'}
+[0.441079] (cpp01_topic) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object CMakeFiles/demo02_transfer.dir/src/demo02_transfer.cpp.o\x1b[0m\n'}
+[0.501865] (-) TimerEvent: {}
+[0.607024] (-) TimerEvent: {}
+[0.707771] (-) TimerEvent: {}
+[0.808272] (-) TimerEvent: {}
+[0.908848] (-) TimerEvent: {}
+[1.013890] (-) TimerEvent: {}
+[1.114422] (-) TimerEvent: {}
+[1.215046] (-) TimerEvent: {}
+[1.315623] (-) TimerEvent: {}
+[1.416205] (-) TimerEvent: {}
+[1.516826] (-) TimerEvent: {}
+[1.617373] (-) TimerEvent: {}
+[1.720698] (-) TimerEvent: {}
+[1.823462] (-) TimerEvent: {}
+[1.924011] (-) TimerEvent: {}
+[2.024638] (-) TimerEvent: {}
+[2.125230] (-) TimerEvent: {}
+[2.225829] (-) TimerEvent: {}
+[2.326314] (-) TimerEvent: {}
+[2.426834] (-) TimerEvent: {}
+[2.529080] (-) TimerEvent: {}
+[2.634172] (-) TimerEvent: {}
+[2.735595] (-) TimerEvent: {}
+[2.840847] (-) TimerEvent: {}
+[2.941351] (-) TimerEvent: {}
+[3.041886] (-) TimerEvent: {}
+[3.142371] (-) TimerEvent: {}
+[3.242880] (-) TimerEvent: {}
+[3.343394] (-) TimerEvent: {}
+[3.443909] (-) TimerEvent: {}
+[3.544489] (-) TimerEvent: {}
+[3.645055] (-) TimerEvent: {}
+[3.745555] (-) TimerEvent: {}
+[3.846105] (-) TimerEvent: {}
+[3.946595] (-) TimerEvent: {}
+[4.047062] (-) TimerEvent: {}
+[4.147560] (-) TimerEvent: {}
+[4.248022] (-) TimerEvent: {}
+[4.348567] (-) TimerEvent: {}
+[4.449110] (-) TimerEvent: {}
+[4.549598] (-) TimerEvent: {}
+[4.650188] (-) TimerEvent: {}
+[4.750801] (-) TimerEvent: {}
+[4.851424] (-) TimerEvent: {}
+[4.952018] (-) TimerEvent: {}
+[5.052762] (-) TimerEvent: {}
+[5.153377] (-) TimerEvent: {}
+[5.253970] (-) TimerEvent: {}
+[5.354613] (-) TimerEvent: {}
+[5.455188] (-) TimerEvent: {}
+[5.555693] (-) TimerEvent: {}
+[5.656221] (-) TimerEvent: {}
+[5.756734] (-) TimerEvent: {}
+[5.857294] (-) TimerEvent: {}
+[5.957900] (-) TimerEvent: {}
+[6.058613] (-) TimerEvent: {}
+[6.159234] (-) TimerEvent: {}
+[6.260110] (-) TimerEvent: {}
+[6.360680] (-) TimerEvent: {}
+[6.461230] (-) TimerEvent: {}
+[6.561791] (-) TimerEvent: {}
+[6.662378] (-) TimerEvent: {}
+[6.763286] (-) TimerEvent: {}
+[6.863852] (-) TimerEvent: {}
+[6.912205] (cpp01_topic) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiaxin/test2/src/cpp01_topic/src/demo02_transfer.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid Transfer::do_cb(const OutputIPARAAPIFnct&) const\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[6.912681] (cpp01_topic) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiaxin/test2/src/cpp01_topic/src/demo02_transfer.cpp:53:26:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kpassing \xe2\x80\x98\x1b[01m\x1b[Kconst Transfer\x1b[m\x1b[K\xe2\x80\x99 as \xe2\x80\x98\x1b[01m\x1b[Kthis\x1b[m\x1b[K\xe2\x80\x99 argument discards qualifiers [\x1b[01;31m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive\x07-fpermissive\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[6.913009] (cpp01_topic) StderrLine: {'line': b'   53 |       \x1b[01;31m\x1b[Kthis->set_parameter(rclcpp::Parameter("Fahrer_bremst", input.driver_override_speed))\x1b[m\x1b[K;\n'}
+[6.913183] (cpp01_topic) StderrLine: {'line': b'      |       \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.913762] (cpp01_topic) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[6.914101] (cpp01_topic) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[6.914385] (cpp01_topic) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[6.914520] (cpp01_topic) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/jiaxin/test2/src/cpp01_topic/src/demo02_transfer.cpp:8\x1b[m\x1b[K:\n'}
+[6.914761] (cpp01_topic) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:555:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  in call to \xe2\x80\x98\x1b[01m\x1b[Krcl_interfaces::msg::SetParametersResult rclcpp::Node::set_parameter(const rclcpp::Parameter&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.914926] (cpp01_topic) StderrLine: {'line': b'  555 |   \x1b[01;36m\x1b[Kset_parameter\x1b[m\x1b[K(const rclcpp::Parameter & parameter);\n'}
+[6.915059] (cpp01_topic) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.915187] (cpp01_topic) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiaxin/test2/src/cpp01_topic/src/demo02_transfer.cpp:54:26:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kpassing \xe2\x80\x98\x1b[01m\x1b[Kconst Transfer\x1b[m\x1b[K\xe2\x80\x99 as \xe2\x80\x98\x1b[01m\x1b[Kthis\x1b[m\x1b[K\xe2\x80\x99 argument discards qualifiers [\x1b[01;31m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive\x07-fpermissive\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[6.915316] (cpp01_topic) StderrLine: {'line': b'   54 |       \x1b[01;31m\x1b[Kthis->set_parameter(rclcpp::Parameter("Fahrzeugzustand", input.fahrzeug_zustand))\x1b[m\x1b[K;\n'}
+[6.915439] (cpp01_topic) StderrLine: {'line': b'      |       \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.915555] (cpp01_topic) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[6.915679] (cpp01_topic) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[6.915906] (cpp01_topic) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[6.916093] (cpp01_topic) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/jiaxin/test2/src/cpp01_topic/src/demo02_transfer.cpp:8\x1b[m\x1b[K:\n'}
+[6.916231] (cpp01_topic) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:555:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  in call to \xe2\x80\x98\x1b[01m\x1b[Krcl_interfaces::msg::SetParametersResult rclcpp::Node::set_parameter(const rclcpp::Parameter&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.916386] (cpp01_topic) StderrLine: {'line': b'  555 |   \x1b[01;36m\x1b[Kset_parameter\x1b[m\x1b[K(const rclcpp::Parameter & parameter);\n'}
+[6.916516] (cpp01_topic) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.916644] (cpp01_topic) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiaxin/test2/src/cpp01_topic/src/demo02_transfer.cpp:55:26:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kpassing \xe2\x80\x98\x1b[01m\x1b[Kconst Transfer\x1b[m\x1b[K\xe2\x80\x99 as \xe2\x80\x98\x1b[01m\x1b[Kthis\x1b[m\x1b[K\xe2\x80\x99 argument discards qualifiers [\x1b[01;31m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive\x07-fpermissive\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[6.916837] (cpp01_topic) StderrLine: {'line': b'   55 |       \x1b[01;31m\x1b[Kthis->set_parameter(rclcpp::Parameter("Heartbeat_out", input.heartbeat_out))\x1b[m\x1b[K;\n'}
+[6.916991] (cpp01_topic) StderrLine: {'line': b'      |       \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.917160] (cpp01_topic) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[6.917379] (cpp01_topic) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[6.917547] (cpp01_topic) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[6.917703] (cpp01_topic) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/jiaxin/test2/src/cpp01_topic/src/demo02_transfer.cpp:8\x1b[m\x1b[K:\n'}
+[6.917933] (cpp01_topic) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:555:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  in call to \xe2\x80\x98\x1b[01m\x1b[Krcl_interfaces::msg::SetParametersResult rclcpp::Node::set_parameter(const rclcpp::Parameter&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.918162] (cpp01_topic) StderrLine: {'line': b'  555 |   \x1b[01;36m\x1b[Kset_parameter\x1b[m\x1b[K(const rclcpp::Parameter & parameter);\n'}
+[6.918364] (cpp01_topic) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.918528] (cpp01_topic) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiaxin/test2/src/cpp01_topic/src/demo02_transfer.cpp:56:26:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kpassing \xe2\x80\x98\x1b[01m\x1b[Kconst Transfer\x1b[m\x1b[K\xe2\x80\x99 as \xe2\x80\x98\x1b[01m\x1b[Kthis\x1b[m\x1b[K\xe2\x80\x99 argument discards qualifiers [\x1b[01;31m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive\x07-fpermissive\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[6.918868] (cpp01_topic) StderrLine: {'line': b'   56 |       \x1b[01;31m\x1b[Kthis->set_parameter(rclcpp::Parameter("GearChangePossible", input.heartbeat_out))\x1b[m\x1b[K;\n'}
+[6.919029] (cpp01_topic) StderrLine: {'line': b'      |       \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.919152] (cpp01_topic) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[6.919282] (cpp01_topic) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[6.919423] (cpp01_topic) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[6.919543] (cpp01_topic) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/jiaxin/test2/src/cpp01_topic/src/demo02_transfer.cpp:8\x1b[m\x1b[K:\n'}
+[6.919685] (cpp01_topic) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:555:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  in call to \xe2\x80\x98\x1b[01m\x1b[Krcl_interfaces::msg::SetParametersResult rclcpp::Node::set_parameter(const rclcpp::Parameter&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.919868] (cpp01_topic) StderrLine: {'line': b'  555 |   \x1b[01;36m\x1b[Kset_parameter\x1b[m\x1b[K(const rclcpp::Parameter & parameter);\n'}
+[6.919995] (cpp01_topic) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.920121] (cpp01_topic) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiaxin/test2/src/cpp01_topic/src/demo02_transfer.cpp:57:26:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kpassing \xe2\x80\x98\x1b[01m\x1b[Kconst Transfer\x1b[m\x1b[K\xe2\x80\x99 as \xe2\x80\x98\x1b[01m\x1b[Kthis\x1b[m\x1b[K\xe2\x80\x99 argument discards qualifiers [\x1b[01;31m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive\x07-fpermissive\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[6.920271] (cpp01_topic) StderrLine: {'line': b'   57 |       \x1b[01;31m\x1b[Kthis->set_parameter(rclcpp::Parameter("EmergencyBreak", input.status_emergency_stop))\x1b[m\x1b[K;\n'}
+[6.920394] (cpp01_topic) StderrLine: {'line': b'      |       \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.920510] (cpp01_topic) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[6.920627] (cpp01_topic) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[6.920772] (cpp01_topic) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[6.920951] (cpp01_topic) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/jiaxin/test2/src/cpp01_topic/src/demo02_transfer.cpp:8\x1b[m\x1b[K:\n'}
+[6.921074] (cpp01_topic) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:555:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  in call to \xe2\x80\x98\x1b[01m\x1b[Krcl_interfaces::msg::SetParametersResult rclcpp::Node::set_parameter(const rclcpp::Parameter&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.921193] (cpp01_topic) StderrLine: {'line': b'  555 |   \x1b[01;36m\x1b[Kset_parameter\x1b[m\x1b[K(const rclcpp::Parameter & parameter);\n'}
+[6.921316] (cpp01_topic) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.921446] (cpp01_topic) StderrLine: {'line': b'\x1b[01m\x1b[K/home/jiaxin/test2/src/cpp01_topic/src/demo02_transfer.cpp:58:26:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kpassing \xe2\x80\x98\x1b[01m\x1b[Kconst Transfer\x1b[m\x1b[K\xe2\x80\x99 as \xe2\x80\x98\x1b[01m\x1b[Kthis\x1b[m\x1b[K\xe2\x80\x99 argument discards qualifiers [\x1b[01;31m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive\x07-fpermissive\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[6.921583] (cpp01_topic) StderrLine: {'line': b'   58 |       \x1b[01;31m\x1b[Kthis->set_parameter(rclcpp::Parameter("StatusFehler", input.fehlerzustand))\x1b[m\x1b[K;\n'}
+[6.921697] (cpp01_topic) StderrLine: {'line': b'      |       \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.921868] (cpp01_topic) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[6.921992] (cpp01_topic) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[6.922109] (cpp01_topic) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[6.922228] (cpp01_topic) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/jiaxin/test2/src/cpp01_topic/src/demo02_transfer.cpp:8\x1b[m\x1b[K:\n'}
+[6.922346] (cpp01_topic) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:555:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  in call to \xe2\x80\x98\x1b[01m\x1b[Krcl_interfaces::msg::SetParametersResult rclcpp::Node::set_parameter(const rclcpp::Parameter&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[6.922499] (cpp01_topic) StderrLine: {'line': b'  555 |   \x1b[01;36m\x1b[Kset_parameter\x1b[m\x1b[K(const rclcpp::Parameter & parameter);\n'}
+[6.922656] (cpp01_topic) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.964065] (-) TimerEvent: {}
+[7.064709] (-) TimerEvent: {}
+[7.165213] (-) TimerEvent: {}
+[7.265733] (-) TimerEvent: {}
+[7.366294] (-) TimerEvent: {}
+[7.466840] (-) TimerEvent: {}
+[7.567622] (-) TimerEvent: {}
+[7.668372] (-) TimerEvent: {}
+[7.769509] (-) TimerEvent: {}
+[7.870271] (-) TimerEvent: {}
+[7.971105] (-) TimerEvent: {}
+[8.071743] (-) TimerEvent: {}
+[8.172392] (-) TimerEvent: {}
+[8.273065] (-) TimerEvent: {}
+[8.373694] (-) TimerEvent: {}
+[8.522235] (-) TimerEvent: {}
+[8.622816] (-) TimerEvent: {}
+[8.723420] (-) TimerEvent: {}
+[8.823973] (-) TimerEvent: {}
+[8.924529] (-) TimerEvent: {}
+[9.025117] (-) TimerEvent: {}
+[9.125689] (-) TimerEvent: {}
+[9.226306] (-) TimerEvent: {}
+[9.326880] (-) TimerEvent: {}
+[9.427483] (-) TimerEvent: {}
+[9.527941] (-) TimerEvent: {}
+[9.628480] (-) TimerEvent: {}
+[9.729049] (-) TimerEvent: {}
+[9.829610] (-) TimerEvent: {}
+[9.930152] (-) TimerEvent: {}
+[10.030669] (-) TimerEvent: {}
+[10.131251] (-) TimerEvent: {}
+[10.231837] (-) TimerEvent: {}
+[10.332462] (-) TimerEvent: {}
+[10.433032] (-) TimerEvent: {}
+[10.533683] (-) TimerEvent: {}
+[10.634263] (-) TimerEvent: {}
+[10.734722] (-) TimerEvent: {}
+[10.835247] (-) TimerEvent: {}
+[10.935795] (-) TimerEvent: {}
+[11.036358] (-) TimerEvent: {}
+[11.136885] (-) TimerEvent: {}
+[11.237425] (-) TimerEvent: {}
+[11.337965] (-) TimerEvent: {}
+[11.438551] (-) TimerEvent: {}
+[11.490378] (cpp01_topic) StdoutLine: {'line': b'[ 83%] \x1b[32m\x1b[1mLinking CXX executable demo01_talker\x1b[0m\n'}
+[11.538722] (-) TimerEvent: {}
+[11.639365] (-) TimerEvent: {}
+[11.739968] (-) TimerEvent: {}
+[11.840600] (-) TimerEvent: {}
+[11.941196] (-) TimerEvent: {}
+[12.041770] (-) TimerEvent: {}
+[12.070511] (cpp01_topic) StdoutLine: {'line': b'[ 83%] Built target demo01_talker\n'}
+[12.141980] (-) TimerEvent: {}
+[12.242509] (-) TimerEvent: {}
+[12.343074] (-) TimerEvent: {}
+[12.443641] (-) TimerEvent: {}
+[12.544156] (-) TimerEvent: {}
+[12.644667] (-) TimerEvent: {}
+[12.723363] (cpp01_topic) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/demo02_transfer.dir/build.make:76: CMakeFiles/demo02_transfer.dir/src/demo02_transfer.cpp.o] Error 1\n'}
+[12.723805] (cpp01_topic) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:167: CMakeFiles/demo02_transfer.dir/all] Error 2\n'}
+[12.724179] (cpp01_topic) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[12.728312] (cpp01_topic) CommandEnded: {'returncode': 2}
+[12.744787] (-) TimerEvent: {}
+[12.799804] (cpp01_topic) JobEnded: {'identifier': 'cpp01_topic', 'rc': 2}
+[12.810939] (-) EventReactorShutdown: {}

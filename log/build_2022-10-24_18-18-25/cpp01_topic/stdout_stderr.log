@@ -1,0 +1,36 @@
+[35m[1mConsolidate compiler generated dependencies of target demo01_talker[0m
+[ 33%] Built target demo02_transfer
+[ 66%] Built target demo03_listener
+[ 83%] [32mBuilding CXX object CMakeFiles/demo01_talker.dir/src/demo01_talker.cpp.o[0m
+[01m[K/home/jiaxin/test2/src/cpp01_topic/src/demo01_talker.cpp:[m[K In constructor ‘[01m[KTalkerIn::TalkerIn()[m[K’:
+[01m[K/home/jiaxin/test2/src/cpp01_topic/src/demo01_talker.cpp:24:27:[m[K [01;31m[Kerror: [m[Ka function-definition is not allowed here before ‘[01m[K{[m[K’ token
+   24 |       void declare_param()[01;31m[K{[m[K
+      |                           [01;31m[K^[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:23[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/jiaxin/test2/src/cpp01_topic/src/demo01_talker.cpp:6[m[K:
+[01m[K/home/jiaxin/test2/src/cpp01_topic/src/demo01_talker.cpp:[m[K In member function ‘[01m[Kvoid TalkerIn::on_timer()[m[K’:
+[01m[K/home/jiaxin/test2/src/cpp01_topic/src/demo01_talker.cpp:41:105:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct base_interfaces_demo::msg::OutputIPARAAPIFnct_<std::allocator<void> >[m[K’ has no member named ‘[01m[Kchange_gear_position[m[K’
+   41 | CPP_INFO(this->get_logger(), "Iuput:change_gear_position=%d,accel_des=%.2f,height=%.2f", input.[01;31m[Kchange_gear_position[m[K,input.accel_des,input.steering_angle);
+      |                                                                                                [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+
+[01m[K/home/jiaxin/test2/src/cpp01_topic/src/demo01_talker.cpp:41:132:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct base_interfaces_demo::msg::OutputIPARAAPIFnct_<std::allocator<void> >[m[K’ has no member named ‘[01m[Kaccel_des[m[K’
+   41 | , "Iuput:change_gear_position=%d,accel_des=%.2f,height=%.2f", input.change_gear_position,input.[01;31m[Kaccel_des[m[K,input.steering_angle);
+      |                                                                                                [01;31m[K^~~~~~~~~[m[K
+
+[01m[K/home/jiaxin/test2/src/cpp01_topic/src/demo01_talker.cpp:41:148:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct base_interfaces_demo::msg::OutputIPARAAPIFnct_<std::allocator<void> >[m[K’ has no member named ‘[01m[Ksteering_angle[m[K’
+   41 | gear_position=%d,accel_des=%.2f,height=%.2f", input.change_gear_position,input.accel_des,input.[01;31m[Ksteering_angle[m[K);
+      |                                                                                                [01;31m[K^~~~~~~~~~~~~~[m[K
+
+gmake[2]: *** [CMakeFiles/demo01_talker.dir/build.make:76: CMakeFiles/demo01_talker.dir/src/demo01_talker.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:141: CMakeFiles/demo01_talker.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

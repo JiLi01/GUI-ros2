@@ -1,0 +1,406 @@
+[0.000000] (-) TimerEvent: {}
+[0.001223] (base_interfaces_demo) JobQueued: {'identifier': 'base_interfaces_demo', 'dependencies': OrderedDict()}
+[0.002812] (base_interfaces_demo) JobStarted: {'identifier': 'base_interfaces_demo'}
+[0.045788] (base_interfaces_demo) JobProgress: {'identifier': 'base_interfaces_demo', 'progress': 'cmake'}
+[0.046509] (base_interfaces_demo) Command: {'cmd': ['/usr/bin/cmake', '/home/jiaxin/test2/src/base_interfaces_demo', '-DCMAKE_INSTALL_PREFIX=/home/jiaxin/test2/install/base_interfaces_demo'], 'cwd': '/home/jiaxin/test2/build/base_interfaces_demo', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'jiaxin'), ('GIT_ASKPASS', '/home/jiaxin/.vscode-server/bin/d045a5eda657f4d7b676dedbfa7aab8207f8a075/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('WT_PROFILE_ID', '{07b52e3e-de2c-5db4-bd2d-ba144ed6c273}'), ('HOME', '/home/jiaxin'), ('TERM_PROGRAM_VERSION', '1.72.2'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-07f98644-4d28-4c11-a3c3-d993e78be9db.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/jiaxin/.vscode-server/bin/d045a5eda657f4d7b676dedbfa7aab8207f8a075/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/jiaxin/.vscode-server/bin/d045a5eda657f4d7b676dedbfa7aab8207f8a075/node'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu-20.04'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'jiaxin'), ('NAME', 'Code'), ('WSL_INTEROP', '/run/WSL/22854_interop'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/jiaxin/.vscode-server/bin/d045a5eda657f4d7b676dedbfa7aab8207f8a075/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files (x86)/Vector vFlash 6/Bin/Automation/:/mnt/c/Program Files/Python39/Scripts/:/mnt/c/Program Files/Python39/:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/Program Files (x86)/Intel/Intel(R) Management Engine Components/iCLS/:/mnt/c/Program Files/Intel/Intel(R) Management Engine Components/iCLS/:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files (x86)/Intel/Intel(R) Management Engine Components/DAL:/mnt/c/Program Files/Intel/Intel(R) Management Engine Components/DAL:/mnt/c/Program Files/Intel/WiFi/bin/:/mnt/c/Program Files/Common Files/Intel/WirelessCommon/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files (x86)/Vector CANdb++ 3.1/Exec32:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/nodejs/:/mnt/c/MinGW/bin:/mnt/c/Users/SJWZSYO/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin'), ('WT_SESSION', '4ced6dd7-7f4b-4094-8462-087c27c3a096'), ('DISPLAY', '172.28.224.1:0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/vscode-git-c3a1d30f32.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/jiaxin/test2/build/base_interfaces_demo'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', 'ELECTRON_RUN_AS_NODE/w:WT_SESSION::WT_PROFILE_ID'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.099124] (-) TimerEvent: {}
+[0.199764] (-) TimerEvent: {}
+[0.251594] (base_interfaces_demo) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.2.0\n'}
+[0.299925] (-) TimerEvent: {}
+[0.400496] (-) TimerEvent: {}
+[0.501048] (-) TimerEvent: {}
+[0.601714] (-) TimerEvent: {}
+[0.702260] (-) TimerEvent: {}
+[0.802898] (-) TimerEvent: {}
+[0.903569] (-) TimerEvent: {}
+[1.004195] (-) TimerEvent: {}
+[1.065279] (base_interfaces_demo) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.2.0\n'}
+[1.104805] (-) TimerEvent: {}
+[1.205479] (-) TimerEvent: {}
+[1.306112] (-) TimerEvent: {}
+[1.406805] (-) TimerEvent: {}
+[1.507724] (-) TimerEvent: {}
+[1.590047] (base_interfaces_demo) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.607915] (-) TimerEvent: {}
+[1.708507] (-) TimerEvent: {}
+[1.809155] (-) TimerEvent: {}
+[1.810411] (base_interfaces_demo) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.825119] (base_interfaces_demo) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.825703] (base_interfaces_demo) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.826490] (base_interfaces_demo) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.830650] (base_interfaces_demo) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.909360] (-) TimerEvent: {}
+[2.009947] (-) TimerEvent: {}
+[2.111560] (-) TimerEvent: {}
+[2.113889] (base_interfaces_demo) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[2.142426] (base_interfaces_demo) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[2.143141] (base_interfaces_demo) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[2.144296] (base_interfaces_demo) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[2.148220] (base_interfaces_demo) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.2 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[2.211766] (-) TimerEvent: {}
+[2.312397] (-) TimerEvent: {}
+[2.413105] (-) TimerEvent: {}
+[2.454525] (base_interfaces_demo) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter \n'}
+[2.513305] (-) TimerEvent: {}
+[2.596074] (base_interfaces_demo) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[2.599395] (base_interfaces_demo) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.610768] (base_interfaces_demo) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.3 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[2.613484] (-) TimerEvent: {}
+[2.714032] (-) TimerEvent: {}
+[2.814619] (-) TimerEvent: {}
+[2.858745] (base_interfaces_demo) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.911478] (base_interfaces_demo) StdoutLine: {'line': b'-- Found std_msgs: 4.2.2 (/opt/ros/humble/share/std_msgs/cmake)\n'}
+[2.914795] (-) TimerEvent: {}
+[3.015371] (-) TimerEvent: {}
+[3.115994] (-) TimerEvent: {}
+[3.216571] (-) TimerEvent: {}
+[3.317148] (-) TimerEvent: {}
+[3.417727] (-) TimerEvent: {}
+[3.518326] (-) TimerEvent: {}
+[3.542950] (base_interfaces_demo) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[3.618524] (-) TimerEvent: {}
+[3.719114] (-) TimerEvent: {}
+[3.819667] (-) TimerEvent: {}
+[3.920225] (-) TimerEvent: {}
+[3.935894] (base_interfaces_demo) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[4.020690] (-) TimerEvent: {}
+[4.126501] (-) TimerEvent: {}
+[4.227145] (-) TimerEvent: {}
+[4.327650] (-) TimerEvent: {}
+[4.428203] (-) TimerEvent: {}
+[4.462738] (base_interfaces_demo) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[4.528388] (-) TimerEvent: {}
+[4.629037] (-) TimerEvent: {}
+[4.679864] (base_interfaces_demo) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.6", minimum required is "3.6") \n'}
+[4.683108] (base_interfaces_demo) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[4.729221] (-) TimerEvent: {}
+[4.829825] (-) TimerEvent: {}
+[4.930424] (-) TimerEvent: {}
+[5.031034] (-) TimerEvent: {}
+[5.131717] (-) TimerEvent: {}
+[5.224449] (base_interfaces_demo) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.6", minimum required is "3.5") \n'}
+[5.224979] (base_interfaces_demo) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[5.225252] (base_interfaces_demo) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[5.225544] (base_interfaces_demo) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[5.231918] (-) TimerEvent: {}
+[5.266513] (base_interfaces_demo) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[5.332112] (-) TimerEvent: {}
+[5.423341] (base_interfaces_demo) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.4 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[5.432302] (-) TimerEvent: {}
+[5.460125] (base_interfaces_demo) StdoutLine: {'line': b'-- Configuring done\n'}
+[5.532732] (-) TimerEvent: {}
+[5.586773] (base_interfaces_demo) StdoutLine: {'line': b'-- Generating done\n'}
+[5.596854] (base_interfaces_demo) StdoutLine: {'line': b'-- Build files have been written to: /home/jiaxin/test2/build/base_interfaces_demo\n'}
+[5.609623] (base_interfaces_demo) CommandEnded: {'returncode': 0}
+[5.613725] (base_interfaces_demo) JobProgress: {'identifier': 'base_interfaces_demo', 'progress': 'build'}
+[5.614186] (base_interfaces_demo) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/jiaxin/test2/build/base_interfaces_demo', '--', '-j4', '-l4'], 'cwd': '/home/jiaxin/test2/build/base_interfaces_demo', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'jiaxin'), ('GIT_ASKPASS', '/home/jiaxin/.vscode-server/bin/d045a5eda657f4d7b676dedbfa7aab8207f8a075/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('WT_PROFILE_ID', '{07b52e3e-de2c-5db4-bd2d-ba144ed6c273}'), ('HOME', '/home/jiaxin'), ('TERM_PROGRAM_VERSION', '1.72.2'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-07f98644-4d28-4c11-a3c3-d993e78be9db.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/jiaxin/.vscode-server/bin/d045a5eda657f4d7b676dedbfa7aab8207f8a075/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/jiaxin/.vscode-server/bin/d045a5eda657f4d7b676dedbfa7aab8207f8a075/node'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu-20.04'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'jiaxin'), ('NAME', 'Code'), ('WSL_INTEROP', '/run/WSL/22854_interop'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/jiaxin/.vscode-server/bin/d045a5eda657f4d7b676dedbfa7aab8207f8a075/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files (x86)/Vector vFlash 6/Bin/Automation/:/mnt/c/Program Files/Python39/Scripts/:/mnt/c/Program Files/Python39/:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/Program Files (x86)/Intel/Intel(R) Management Engine Components/iCLS/:/mnt/c/Program Files/Intel/Intel(R) Management Engine Components/iCLS/:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files (x86)/Intel/Intel(R) Management Engine Components/DAL:/mnt/c/Program Files/Intel/Intel(R) Management Engine Components/DAL:/mnt/c/Program Files/Intel/WiFi/bin/:/mnt/c/Program Files/Common Files/Intel/WirelessCommon/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files (x86)/Vector CANdb++ 3.1/Exec32:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/nodejs/:/mnt/c/MinGW/bin:/mnt/c/Users/SJWZSYO/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin'), ('WT_SESSION', '4ced6dd7-7f4b-4094-8462-087c27c3a096'), ('DISPLAY', '172.28.224.1:0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/vscode-git-c3a1d30f32.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/jiaxin/test2/build/base_interfaces_demo'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', 'ELECTRON_RUN_AS_NODE/w:WT_SESSION::WT_PROFILE_ID'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[5.632936] (-) TimerEvent: {}
+[5.674638] (base_interfaces_demo) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[5.691466] (base_interfaces_demo) StdoutLine: {'line': b'[  5%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[5.711155] (base_interfaces_demo) StdoutLine: {'line': b'[  5%] Built target ament_cmake_python_copy_base_interfaces_demo\n'}
+[5.738355] (-) TimerEvent: {}
+[5.838810] (-) TimerEvent: {}
+[5.939474] (-) TimerEvent: {}
+[6.042136] (-) TimerEvent: {}
+[6.145165] (-) TimerEvent: {}
+[6.245620] (-) TimerEvent: {}
+[6.346110] (-) TimerEvent: {}
+[6.447836] (-) TimerEvent: {}
+[6.494963] (base_interfaces_demo) StdoutLine: {'line': b'running egg_info\n'}
+[6.498299] (base_interfaces_demo) StdoutLine: {'line': b'creating base_interfaces_demo.egg-info\n'}
+[6.498596] (base_interfaces_demo) StdoutLine: {'line': b'writing base_interfaces_demo.egg-info/PKG-INFO\n'}
+[6.498759] (base_interfaces_demo) StdoutLine: {'line': b'writing dependency_links to base_interfaces_demo.egg-info/dependency_links.txt\n'}
+[6.498906] (base_interfaces_demo) StdoutLine: {'line': b'writing top-level names to base_interfaces_demo.egg-info/top_level.txt\n'}
+[6.499052] (base_interfaces_demo) StdoutLine: {'line': b"writing manifest file 'base_interfaces_demo.egg-info/SOURCES.txt'\n"}
+[6.505518] (base_interfaces_demo) StdoutLine: {'line': b"reading manifest file 'base_interfaces_demo.egg-info/SOURCES.txt'\n"}
+[6.510119] (base_interfaces_demo) StdoutLine: {'line': b"writing manifest file 'base_interfaces_demo.egg-info/SOURCES.txt'\n"}
+[6.549499] (-) TimerEvent: {}
+[6.577010] (base_interfaces_demo) StdoutLine: {'line': b'[  5%] Built target ament_cmake_python_build_base_interfaces_demo_egg\n'}
+[6.649654] (-) TimerEvent: {}
+[6.716537] (base_interfaces_demo) StdoutLine: {'line': b'[  5%] Built target base_interfaces_demo__cpp\n'}
+[6.734935] (base_interfaces_demo) StdoutLine: {'line': b'[  7%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[6.749795] (-) TimerEvent: {}
+[6.751588] (base_interfaces_demo) StdoutLine: {'line': b'[ 10%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[6.763956] (base_interfaces_demo) StdoutLine: {'line': b'[ 12%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[6.782860] (base_interfaces_demo) StdoutLine: {'line': b'[ 15%] \x1b[32mBuilding C object CMakeFiles/base_interfaces_demo__rosidl_generator_c.dir/rosidl_generator_c/base_interfaces_demo/msg/detail/input_iparaapi_fnct__functions.c.o\x1b[0m\n'}
+[6.849937] (-) TimerEvent: {}
+[6.950375] (-) TimerEvent: {}
+[6.957208] (base_interfaces_demo) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding C object CMakeFiles/base_interfaces_demo__rosidl_generator_c.dir/rosidl_generator_c/base_interfaces_demo/msg/detail/output_iparaapi_fnct__functions.c.o\x1b[0m\n'}
+[7.051978] (-) TimerEvent: {}
+[7.098673] (base_interfaces_demo) StdoutLine: {'line': b'[ 20%] \x1b[32m\x1b[1mLinking C shared library libbase_interfaces_demo__rosidl_generator_c.so\x1b[0m\n'}
+[7.152795] (-) TimerEvent: {}
+[7.253824] (-) TimerEvent: {}
+[7.354292] (-) TimerEvent: {}
+[7.454723] (-) TimerEvent: {}
+[7.479338] (base_interfaces_demo) StdoutLine: {'line': b'[ 20%] Built target base_interfaces_demo__rosidl_generator_c\n'}
+[7.504981] (base_interfaces_demo) StdoutLine: {'line': b'[ 23%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[7.554854] (-) TimerEvent: {}
+[7.657633] (-) TimerEvent: {}
+[7.705408] (base_interfaces_demo) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/base_interfaces_demo__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/base_interfaces_demo/msg/input_iparaapi_fnct__type_support.cpp.o\x1b[0m\n'}
+[7.758311] (-) TimerEvent: {}
+[7.823231] (base_interfaces_demo) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object CMakeFiles/base_interfaces_demo__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/base_interfaces_demo/msg/detail/input_iparaapi_fnct__type_support.cpp.o\x1b[0m\n'}
+[7.858447] (-) TimerEvent: {}
+[7.900579] (base_interfaces_demo) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/base_interfaces_demo__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/base_interfaces_demo/msg/detail/dds_fastrtps/input_iparaapi_fnct__type_support.cpp.o\x1b[0m\n'}
+[7.964073] (-) TimerEvent: {}
+[8.069809] (-) TimerEvent: {}
+[8.178741] (-) TimerEvent: {}
+[8.280499] (-) TimerEvent: {}
+[8.384680] (-) TimerEvent: {}
+[8.485148] (-) TimerEvent: {}
+[8.595347] (-) TimerEvent: {}
+[8.700664] (-) TimerEvent: {}
+[8.801804] (-) TimerEvent: {}
+[8.853295] (base_interfaces_demo) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/base_interfaces_demo__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/base_interfaces_demo/msg/output_iparaapi_fnct__type_support.cpp.o\x1b[0m\n'}
+[8.881829] (base_interfaces_demo) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/base_interfaces_demo__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/base_interfaces_demo/msg/detail/input_iparaapi_fnct__type_support_c.cpp.o\x1b[0m\n'}
+[8.905036] (-) TimerEvent: {}
+[9.005519] (-) TimerEvent: {}
+[9.107232] (-) TimerEvent: {}
+[9.210406] (-) TimerEvent: {}
+[9.310887] (-) TimerEvent: {}
+[9.324683] (base_interfaces_demo) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/base_interfaces_demo__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/base_interfaces_demo/msg/detail/output_iparaapi_fnct__type_support.cpp.o\x1b[0m\n'}
+[9.411048] (-) TimerEvent: {}
+[9.432498] (base_interfaces_demo) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/base_interfaces_demo__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/base_interfaces_demo/msg/detail/dds_fastrtps/output_iparaapi_fnct__type_support.cpp.o\x1b[0m\n'}
+[9.511190] (-) TimerEvent: {}
+[9.611755] (-) TimerEvent: {}
+[9.712205] (-) TimerEvent: {}
+[9.787203] (base_interfaces_demo) StdoutLine: {'line': b'[ 43%] \x1b[32m\x1b[1mLinking CXX shared library libbase_interfaces_demo__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[9.812395] (-) TimerEvent: {}
+[9.912933] (-) TimerEvent: {}
+[10.013406] (-) TimerEvent: {}
+[10.110167] (base_interfaces_demo) StdoutLine: {'line': b'[ 43%] Built target base_interfaces_demo__rosidl_typesupport_cpp\n'}
+[10.113591] (-) TimerEvent: {}
+[10.151620] (base_interfaces_demo) StdoutLine: {'line': b'[ 46%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[10.169418] (base_interfaces_demo) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding CXX object CMakeFiles/base_interfaces_demo__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/base_interfaces_demo/msg/detail/output_iparaapi_fnct__type_support_c.cpp.o\x1b[0m\n'}
+[10.213929] (-) TimerEvent: {}
+[10.314378] (-) TimerEvent: {}
+[10.414900] (-) TimerEvent: {}
+[10.515594] (-) TimerEvent: {}
+[10.616189] (-) TimerEvent: {}
+[10.716685] (-) TimerEvent: {}
+[10.796497] (base_interfaces_demo) StdoutLine: {'line': b'[ 51%] \x1b[32m\x1b[1mLinking CXX shared library libbase_interfaces_demo__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[10.816865] (-) TimerEvent: {}
+[10.843417] (base_interfaces_demo) StdoutLine: {'line': b'[ 53%] \x1b[32m\x1b[1mLinking CXX shared library libbase_interfaces_demo__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[10.917068] (-) TimerEvent: {}
+[11.017603] (-) TimerEvent: {}
+[11.118128] (-) TimerEvent: {}
+[11.190740] (base_interfaces_demo) StdoutLine: {'line': b'[ 53%] Built target base_interfaces_demo__rosidl_typesupport_introspection_cpp\n'}
+[11.211453] (base_interfaces_demo) StdoutLine: {'line': b'[ 56%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[11.214872] (base_interfaces_demo) StdoutLine: {'line': b'[ 56%] Built target base_interfaces_demo__rosidl_typesupport_fastrtps_cpp\n'}
+[11.220762] (-) TimerEvent: {}
+[11.321229] (-) TimerEvent: {}
+[11.327507] (base_interfaces_demo) StdoutLine: {'line': b'[ 58%] \x1b[32mBuilding C object CMakeFiles/base_interfaces_demo__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/base_interfaces_demo/msg/detail/output_iparaapi_fnct__type_support.c.o\x1b[0m\n'}
+[11.329624] (base_interfaces_demo) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding C object CMakeFiles/base_interfaces_demo__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/base_interfaces_demo/msg/detail/input_iparaapi_fnct__type_support.c.o\x1b[0m\n'}
+[11.337615] (base_interfaces_demo) StdoutLine: {'line': b'[ 64%] \x1b[32m\x1b[1mLinking CXX shared library libbase_interfaces_demo__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[11.421408] (-) TimerEvent: {}
+[11.440467] (base_interfaces_demo) StdoutLine: {'line': b'[ 66%] \x1b[32m\x1b[1mLinking C shared library libbase_interfaces_demo__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[11.521572] (-) TimerEvent: {}
+[11.622187] (-) TimerEvent: {}
+[11.656772] (base_interfaces_demo) StdoutLine: {'line': b'[ 66%] Built target base_interfaces_demo__rosidl_typesupport_introspection_c\n'}
+[11.715939] (base_interfaces_demo) StdoutLine: {'line': b'[ 66%] Built target base_interfaces_demo__rosidl_typesupport_fastrtps_c\n'}
+[11.722377] (-) TimerEvent: {}
+[11.822958] (-) TimerEvent: {}
+[11.923575] (-) TimerEvent: {}
+[11.987060] (base_interfaces_demo) StdoutLine: {'line': b'[ 69%] \x1b[32mBuilding CXX object CMakeFiles/base_interfaces_demo__rosidl_typesupport_c.dir/rosidl_typesupport_c/base_interfaces_demo/msg/output_iparaapi_fnct__type_support.cpp.o\x1b[0m\n'}
+[11.989102] (base_interfaces_demo) StdoutLine: {'line': b'[ 71%] \x1b[32mBuilding CXX object CMakeFiles/base_interfaces_demo__rosidl_typesupport_c.dir/rosidl_typesupport_c/base_interfaces_demo/msg/input_iparaapi_fnct__type_support.cpp.o\x1b[0m\n'}
+[12.031999] (-) TimerEvent: {}
+[12.056907] (base_interfaces_demo) StdoutLine: {'line': b'[ 74%] \x1b[32m\x1b[1mLinking CXX shared library libbase_interfaces_demo__rosidl_typesupport_c.so\x1b[0m\n'}
+[12.132193] (-) TimerEvent: {}
+[12.232845] (-) TimerEvent: {}
+[12.274726] (base_interfaces_demo) StdoutLine: {'line': b'[ 74%] Built target base_interfaces_demo__rosidl_typesupport_c\n'}
+[12.306644] (base_interfaces_demo) StdoutLine: {'line': b'[ 74%] Built target base_interfaces_demo\n'}
+[12.333045] (-) TimerEvent: {}
+[12.340718] (base_interfaces_demo) StdoutLine: {'line': b'[ 76%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[12.433218] (-) TimerEvent: {}
+[12.533858] (-) TimerEvent: {}
+[12.634451] (-) TimerEvent: {}
+[12.735205] (-) TimerEvent: {}
+[12.835814] (-) TimerEvent: {}
+[12.936400] (-) TimerEvent: {}
+[13.036893] (-) TimerEvent: {}
+[13.137469] (-) TimerEvent: {}
+[13.238055] (-) TimerEvent: {}
+[13.338546] (-) TimerEvent: {}
+[13.384325] (base_interfaces_demo) StdoutLine: {'line': b'[ 76%] Built target base_interfaces_demo__py\n'}
+[13.412534] (base_interfaces_demo) StdoutLine: {'line': b'[ 79%] \x1b[32mBuilding C object CMakeFiles/base_interfaces_demo__rosidl_generator_py.dir/rosidl_generator_py/base_interfaces_demo/msg/_input_iparaapi_fnct_s.c.o\x1b[0m\n'}
+[13.413630] (base_interfaces_demo) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding C object CMakeFiles/base_interfaces_demo__rosidl_generator_py.dir/rosidl_generator_py/base_interfaces_demo/msg/_output_iparaapi_fnct_s.c.o\x1b[0m\n'}
+[13.438786] (-) TimerEvent: {}
+[13.539344] (-) TimerEvent: {}
+[13.627219] (base_interfaces_demo) StdoutLine: {'line': b'[ 84%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/base_interfaces_demo/libbase_interfaces_demo__rosidl_generator_py.so\x1b[0m\n'}
+[13.639523] (-) TimerEvent: {}
+[13.740083] (-) TimerEvent: {}
+[13.811978] (base_interfaces_demo) StdoutLine: {'line': b'[ 84%] Built target base_interfaces_demo__rosidl_generator_py\n'}
+[13.840255] (-) TimerEvent: {}
+[13.854422] (base_interfaces_demo) StdoutLine: {'line': b'[ 89%] \x1b[32mBuilding C object CMakeFiles/base_interfaces_demo__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/base_interfaces_demo/_base_interfaces_demo_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[13.854931] (base_interfaces_demo) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/base_interfaces_demo__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/base_interfaces_demo/_base_interfaces_demo_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[13.856954] (base_interfaces_demo) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding C object CMakeFiles/base_interfaces_demo__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/base_interfaces_demo/_base_interfaces_demo_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[13.940457] (-) TimerEvent: {}
+[14.042198] (-) TimerEvent: {}
+[14.097983] (base_interfaces_demo) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/base_interfaces_demo/base_interfaces_demo_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[14.102558] (base_interfaces_demo) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/base_interfaces_demo/base_interfaces_demo_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[14.103019] (base_interfaces_demo) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/base_interfaces_demo/base_interfaces_demo_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[14.142422] (-) TimerEvent: {}
+[14.243084] (-) TimerEvent: {}
+[14.270902] (base_interfaces_demo) StdoutLine: {'line': b'[100%] Built target base_interfaces_demo__rosidl_typesupport_introspection_c__pyext\n'}
+[14.273893] (base_interfaces_demo) StdoutLine: {'line': b'[100%] Built target base_interfaces_demo__rosidl_typesupport_fastrtps_c__pyext\n'}
+[14.277348] (base_interfaces_demo) StdoutLine: {'line': b'[100%] Built target base_interfaces_demo__rosidl_typesupport_c__pyext\n'}
+[14.296660] (base_interfaces_demo) CommandEnded: {'returncode': 0}
+[14.343515] (-) TimerEvent: {}
+[14.422397] (base_interfaces_demo) JobProgress: {'identifier': 'base_interfaces_demo', 'progress': 'install'}
+[14.436382] (base_interfaces_demo) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/jiaxin/test2/build/base_interfaces_demo'], 'cwd': '/home/jiaxin/test2/build/base_interfaces_demo', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'jiaxin'), ('GIT_ASKPASS', '/home/jiaxin/.vscode-server/bin/d045a5eda657f4d7b676dedbfa7aab8207f8a075/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('WT_PROFILE_ID', '{07b52e3e-de2c-5db4-bd2d-ba144ed6c273}'), ('HOME', '/home/jiaxin'), ('TERM_PROGRAM_VERSION', '1.72.2'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-07f98644-4d28-4c11-a3c3-d993e78be9db.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/jiaxin/.vscode-server/bin/d045a5eda657f4d7b676dedbfa7aab8207f8a075/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/jiaxin/.vscode-server/bin/d045a5eda657f4d7b676dedbfa7aab8207f8a075/node'), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu-20.04'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'jiaxin'), ('NAME', 'Code'), ('WSL_INTEROP', '/run/WSL/22854_interop'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/jiaxin/.vscode-server/bin/d045a5eda657f4d7b676dedbfa7aab8207f8a075/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files (x86)/Vector vFlash 6/Bin/Automation/:/mnt/c/Program Files/Python39/Scripts/:/mnt/c/Program Files/Python39/:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/Program Files (x86)/Intel/Intel(R) Management Engine Components/iCLS/:/mnt/c/Program Files/Intel/Intel(R) Management Engine Components/iCLS/:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files (x86)/Intel/Intel(R) Management Engine Components/DAL:/mnt/c/Program Files/Intel/Intel(R) Management Engine Components/DAL:/mnt/c/Program Files/Intel/WiFi/bin/:/mnt/c/Program Files/Common Files/Intel/WirelessCommon/:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files (x86)/Vector CANdb++ 3.1/Exec32:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/nodejs/:/mnt/c/MinGW/bin:/mnt/c/Users/SJWZSYO/AppData/Local/Programs/Microsoft VS Code/bin:/snap/bin'), ('WT_SESSION', '4ced6dd7-7f4b-4094-8462-087c27c3a096'), ('DISPLAY', '172.28.224.1:0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/vscode-git-c3a1d30f32.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/jiaxin/test2/build/base_interfaces_demo'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', 'ELECTRON_RUN_AS_NODE/w:WT_SESSION::WT_PROFILE_ID'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[14.443699] (-) TimerEvent: {}
+[14.445024] (base_interfaces_demo) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[14.446222] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/jiaxin/test2/install/base_interfaces_demo/share/ament_index/resource_index/rosidl_interfaces/base_interfaces_demo\n'}
+[14.449176] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/jiaxin/test2/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo\n'}
+[14.449903] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/jiaxin/test2/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg\n'}
+[14.452225] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/jiaxin/test2/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/output_iparaapi_fnct.h\n'}
+[14.457249] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/jiaxin/test2/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/input_iparaapi_fnct.h\n'}
+[14.458587] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/jiaxin/test2/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/rosidl_generator_c__visibility_control.h\n'}
+[14.459615] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/jiaxin/test2/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/detail\n'}
+[14.459891] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/jiaxin/test2/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/detail/output_iparaapi_fnct__functions.h\n'}
+[14.460404] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/jiaxin/test2/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/detail/output_iparaapi_fnct__struct.h\n'}
+[14.460798] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/jiaxin/test2/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/detail/output_iparaapi_fnct__functions.c\n'}
+[14.461063] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/jiaxin/test2/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/detail/input_iparaapi_fnct__struct.h\n'}
+[14.461637] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/jiaxin/test2/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/detail/input_iparaapi_fnct__functions.h\n'}
+[14.461939] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/jiaxin/test2/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/detail/output_iparaapi_fnct__type_support.h\n'}
+[14.462557] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/jiaxin/test2/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/detail/input_iparaapi_fnct__type_support.h\n'}
+[14.462907] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/jiaxin/test2/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/detail/input_iparaapi_fnct__functions.c\n'}
+[14.463655] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/jiaxin/test2/install/base_interfaces_demo/share/base_interfaces_demo/environment/library_path.sh\n'}
+[14.464032] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/jiaxin/test2/install/base_interfaces_demo/share/base_interfaces_demo/environment/library_path.dsv\n'}
+[14.464658] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/jiaxin/test2/install/base_interfaces_demo/lib/libbase_interfaces_demo__rosidl_generator_c.so\n'}
+[14.464860] (base_interfaces_demo) StdoutLine: {'line': b'-- Set runtime path of "/home/jiaxin/test2/install/base_interfaces_demo/lib/libbase_interfaces_demo__rosidl_generator_c.so" to ""\n'}
+[14.465087] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/jiaxin/test2/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo\n'}
+[14.465259] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/jiaxin/test2/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg\n'}
+[14.465443] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/jiaxin/test2/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[14.465619] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/jiaxin/test2/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/detail\n'}
+[14.465791] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/jiaxin/test2/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/detail/output_iparaapi_fnct__rosidl_typesupport_fastrtps_c.h\n'}
+[14.466088] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/jiaxin/test2/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/detail/input_iparaapi_fnct__rosidl_typesupport_fastrtps_c.h\n'}
+[14.466366] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/jiaxin/test2/install/base_interfaces_demo/lib/libbase_interfaces_demo__rosidl_typesupport_fastrtps_c.so\n'}
+[14.466606] (base_interfaces_demo) StdoutLine: {'line': b'-- Set runtime path of "/home/jiaxin/test2/install/base_interfaces_demo/lib/libbase_interfaces_demo__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[14.466796] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/jiaxin/test2/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo\n'}
+[14.467203] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/jiaxin/test2/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg\n'}
+[14.467558] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/jiaxin/test2/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[14.468174] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/jiaxin/test2/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/detail\n'}
+[14.468479] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/jiaxin/test2/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/detail/output_iparaapi_fnct__rosidl_typesupport_introspection_c.h\n'}
+[14.468729] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/jiaxin/test2/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/detail/output_iparaapi_fnct__type_support.c\n'}
+[14.471321] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/jiaxin/test2/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/detail/input_iparaapi_fnct__rosidl_typesupport_introspection_c.h\n'}
+[14.471816] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/jiaxin/test2/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/detail/input_iparaapi_fnct__type_support.c\n'}
+[14.472847] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/jiaxin/test2/install/base_interfaces_demo/lib/libbase_interfaces_demo__rosidl_typesupport_introspection_c.so\n'}
+[14.473483] (base_interfaces_demo) StdoutLine: {'line': b'-- Set runtime path of "/home/jiaxin/test2/install/base_interfaces_demo/lib/libbase_interfaces_demo__rosidl_typesupport_introspection_c.so" to ""\n'}
+[14.474196] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/jiaxin/test2/install/base_interfaces_demo/lib/libbase_interfaces_demo__rosidl_typesupport_c.so\n'}
+[14.474983] (base_interfaces_demo) StdoutLine: {'line': b'-- Set runtime path of "/home/jiaxin/test2/install/base_interfaces_demo/lib/libbase_interfaces_demo__rosidl_typesupport_c.so" to ""\n'}
+[14.475609] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/jiaxin/test2/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo\n'}
+[14.476061] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/jiaxin/test2/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg\n'}
+[14.476512] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/jiaxin/test2/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/input_iparaapi_fnct.hpp\n'}
+[14.477084] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/jiaxin/test2/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/output_iparaapi_fnct.hpp\n'}
+[14.477474] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/jiaxin/test2/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/detail\n'}
+[14.477870] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/jiaxin/test2/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/detail/input_iparaapi_fnct__builder.hpp\n'}
+[14.478452] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/jiaxin/test2/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/detail/output_iparaapi_fnct__struct.hpp\n'}
+[14.478942] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/jiaxin/test2/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/detail/output_iparaapi_fnct__builder.hpp\n'}
+[14.479465] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/jiaxin/test2/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/detail/input_iparaapi_fnct__struct.hpp\n'}
+[14.479871] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/jiaxin/test2/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/detail/input_iparaapi_fnct__traits.hpp\n'}
+[14.480341] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/jiaxin/test2/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/detail/output_iparaapi_fnct__traits.hpp\n'}
+[14.480702] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/jiaxin/test2/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo\n'}
+[14.482164] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/jiaxin/test2/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg\n'}
+[14.485559] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/jiaxin/test2/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[14.486059] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/jiaxin/test2/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/detail\n'}
+[14.486502] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/jiaxin/test2/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/detail/input_iparaapi_fnct__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[14.486830] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/jiaxin/test2/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/detail/output_iparaapi_fnct__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[14.487250] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/jiaxin/test2/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/detail/dds_fastrtps\n'}
+[14.487822] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/jiaxin/test2/install/base_interfaces_demo/lib/libbase_interfaces_demo__rosidl_typesupport_fastrtps_cpp.so\n'}
+[14.488141] (base_interfaces_demo) StdoutLine: {'line': b'-- Set runtime path of "/home/jiaxin/test2/install/base_interfaces_demo/lib/libbase_interfaces_demo__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[14.488504] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/jiaxin/test2/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo\n'}
+[14.488895] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/jiaxin/test2/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg\n'}
+[14.489458] (base_interfaces_demo) StdoutLine: {'line': b'-- Up-to-date: /home/jiaxin/test2/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/detail\n'}
+[14.489813] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/jiaxin/test2/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/detail/input_iparaapi_fnct__type_support.cpp\n'}
+[14.490325] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/jiaxin/test2/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/detail/input_iparaapi_fnct__rosidl_typesupport_introspection_cpp.hpp\n'}
+[14.490645] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/jiaxin/test2/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/detail/output_iparaapi_fnct__type_support.cpp\n'}
+[14.490912] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/jiaxin/test2/install/base_interfaces_demo/include/base_interfaces_demo/base_interfaces_demo/msg/detail/output_iparaapi_fnct__rosidl_typesupport_introspection_cpp.hpp\n'}
+[14.491383] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/jiaxin/test2/install/base_interfaces_demo/lib/libbase_interfaces_demo__rosidl_typesupport_introspection_cpp.so\n'}
+[14.491620] (base_interfaces_demo) StdoutLine: {'line': b'-- Set runtime path of "/home/jiaxin/test2/install/base_interfaces_demo/lib/libbase_interfaces_demo__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[14.491926] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/jiaxin/test2/install/base_interfaces_demo/lib/libbase_interfaces_demo__rosidl_typesupport_cpp.so\n'}
+[14.492218] (base_interfaces_demo) StdoutLine: {'line': b'-- Set runtime path of "/home/jiaxin/test2/install/base_interfaces_demo/lib/libbase_interfaces_demo__rosidl_typesupport_cpp.so" to ""\n'}
+[14.492520] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/jiaxin/test2/install/base_interfaces_demo/share/base_interfaces_demo/environment/pythonpath.sh\n'}
+[14.492871] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/jiaxin/test2/install/base_interfaces_demo/share/base_interfaces_demo/environment/pythonpath.dsv\n'}
+[14.493109] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/jiaxin/test2/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo-0.0.0-py3.10.egg-info\n'}
+[14.493502] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/jiaxin/test2/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[14.493861] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/jiaxin/test2/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[14.494218] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/jiaxin/test2/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[14.494553] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/jiaxin/test2/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[14.495114] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/jiaxin/test2/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo\n'}
+[14.495490] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/jiaxin/test2/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo/_base_interfaces_demo_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[14.495811] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/jiaxin/test2/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo/_base_interfaces_demo_s.ep.rosidl_typesupport_c.c\n'}
+[14.496131] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/jiaxin/test2/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo/libbase_interfaces_demo__rosidl_generator_py.so\n'}
+[14.496386] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/jiaxin/test2/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo/base_interfaces_demo_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[14.497126] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/jiaxin/test2/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo/msg\n'}
+[14.497525] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/jiaxin/test2/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo/msg/_input_iparaapi_fnct_s.c\n'}
+[14.497738] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/jiaxin/test2/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo/msg/_output_iparaapi_fnct_s.c\n'}
+[14.497849] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/jiaxin/test2/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo/msg/_output_iparaapi_fnct.py\n'}
+[14.498176] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/jiaxin/test2/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo/msg/_input_iparaapi_fnct.py\n'}
+[14.498507] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/jiaxin/test2/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo/msg/__init__.py\n'}
+[14.498810] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/jiaxin/test2/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo/base_interfaces_demo_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[14.499135] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/jiaxin/test2/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo/_base_interfaces_demo_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[14.500822] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/jiaxin/test2/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo/base_interfaces_demo_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[14.501567] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/jiaxin/test2/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo/__init__.py\n'}
+[14.543896] (-) TimerEvent: {}
+[14.553079] (base_interfaces_demo) StdoutLine: {'line': b"Listing '/home/jiaxin/test2/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo'...\n"}
+[14.553655] (base_interfaces_demo) StdoutLine: {'line': b"Compiling '/home/jiaxin/test2/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo/__init__.py'...\n"}
+[14.554157] (base_interfaces_demo) StdoutLine: {'line': b"Listing '/home/jiaxin/test2/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo/msg'...\n"}
+[14.554622] (base_interfaces_demo) StdoutLine: {'line': b"Compiling '/home/jiaxin/test2/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo/msg/__init__.py'...\n"}
+[14.555051] (base_interfaces_demo) StdoutLine: {'line': b"Compiling '/home/jiaxin/test2/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo/msg/_input_iparaapi_fnct.py'...\n"}
+[14.555456] (base_interfaces_demo) StdoutLine: {'line': b"Compiling '/home/jiaxin/test2/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo/msg/_output_iparaapi_fnct.py'...\n"}
+[14.564263] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/jiaxin/test2/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo/base_interfaces_demo_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[14.565148] (base_interfaces_demo) StdoutLine: {'line': b'-- Set runtime path of "/home/jiaxin/test2/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo/base_interfaces_demo_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[14.565661] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/jiaxin/test2/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo/base_interfaces_demo_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[14.566839] (base_interfaces_demo) StdoutLine: {'line': b'-- Set runtime path of "/home/jiaxin/test2/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo/base_interfaces_demo_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[14.567412] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/jiaxin/test2/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo/base_interfaces_demo_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[14.570537] (base_interfaces_demo) StdoutLine: {'line': b'-- Set runtime path of "/home/jiaxin/test2/install/base_interfaces_demo/local/lib/python3.10/dist-packages/base_interfaces_demo/base_interfaces_demo_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[14.571156] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/jiaxin/test2/install/base_interfaces_demo/lib/libbase_interfaces_demo__rosidl_generator_py.so\n'}
+[14.572155] (base_interfaces_demo) StdoutLine: {'line': b'-- Set runtime path of "/home/jiaxin/test2/install/base_interfaces_demo/lib/libbase_interfaces_demo__rosidl_generator_py.so" to ""\n'}
+[14.572977] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/jiaxin/test2/install/base_interfaces_demo/share/base_interfaces_demo/msg/InputIPARAAPIFnct.idl\n'}
+[14.573452] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/jiaxin/test2/install/base_interfaces_demo/share/base_interfaces_demo/msg/OutputIPARAAPIFnct.idl\n'}
+[14.573944] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/jiaxin/test2/install/base_interfaces_demo/share/base_interfaces_demo/msg/InputIPARAAPIFnct.msg\n'}
+[14.574813] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/jiaxin/test2/install/base_interfaces_demo/share/base_interfaces_demo/msg/OutputIPARAAPIFnct.msg\n'}
+[14.575933] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/jiaxin/test2/install/base_interfaces_demo/share/ament_index/resource_index/package_run_dependencies/base_interfaces_demo\n'}
+[14.577050] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/jiaxin/test2/install/base_interfaces_demo/share/ament_index/resource_index/parent_prefix_path/base_interfaces_demo\n'}
+[14.578005] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/jiaxin/test2/install/base_interfaces_demo/share/base_interfaces_demo/environment/ament_prefix_path.sh\n'}
+[14.579174] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/jiaxin/test2/install/base_interfaces_demo/share/base_interfaces_demo/environment/ament_prefix_path.dsv\n'}
+[14.579921] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/jiaxin/test2/install/base_interfaces_demo/share/base_interfaces_demo/environment/path.sh\n'}
+[14.586522] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/jiaxin/test2/install/base_interfaces_demo/share/base_interfaces_demo/environment/path.dsv\n'}
+[14.586875] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/jiaxin/test2/install/base_interfaces_demo/share/base_interfaces_demo/local_setup.bash\n'}
+[14.587937] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/jiaxin/test2/install/base_interfaces_demo/share/base_interfaces_demo/local_setup.sh\n'}
+[14.588215] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/jiaxin/test2/install/base_interfaces_demo/share/base_interfaces_demo/local_setup.zsh\n'}
+[14.588492] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/jiaxin/test2/install/base_interfaces_demo/share/base_interfaces_demo/local_setup.dsv\n'}
+[14.588704] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/jiaxin/test2/install/base_interfaces_demo/share/base_interfaces_demo/package.dsv\n'}
+[14.588896] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/jiaxin/test2/install/base_interfaces_demo/share/ament_index/resource_index/packages/base_interfaces_demo\n'}
+[14.589102] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/jiaxin/test2/install/base_interfaces_demo/share/base_interfaces_demo/cmake/export_base_interfaces_demo__rosidl_generator_cExport.cmake\n'}
+[14.589287] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/jiaxin/test2/install/base_interfaces_demo/share/base_interfaces_demo/cmake/export_base_interfaces_demo__rosidl_generator_cExport-noconfig.cmake\n'}
+[14.590024] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/jiaxin/test2/install/base_interfaces_demo/share/base_interfaces_demo/cmake/export_base_interfaces_demo__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[14.590509] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/jiaxin/test2/install/base_interfaces_demo/share/base_interfaces_demo/cmake/export_base_interfaces_demo__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[14.590727] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/jiaxin/test2/install/base_interfaces_demo/share/base_interfaces_demo/cmake/base_interfaces_demo__rosidl_typesupport_introspection_cExport.cmake\n'}
+[14.591061] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/jiaxin/test2/install/base_interfaces_demo/share/base_interfaces_demo/cmake/base_interfaces_demo__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[14.591291] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/jiaxin/test2/install/base_interfaces_demo/share/base_interfaces_demo/cmake/base_interfaces_demo__rosidl_typesupport_cExport.cmake\n'}
+[14.591703] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/jiaxin/test2/install/base_interfaces_demo/share/base_interfaces_demo/cmake/base_interfaces_demo__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[14.592067] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/jiaxin/test2/install/base_interfaces_demo/share/base_interfaces_demo/cmake/export_base_interfaces_demo__rosidl_generator_cppExport.cmake\n'}
+[14.592548] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/jiaxin/test2/install/base_interfaces_demo/share/base_interfaces_demo/cmake/export_base_interfaces_demo__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[14.592854] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/jiaxin/test2/install/base_interfaces_demo/share/base_interfaces_demo/cmake/export_base_interfaces_demo__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[14.593168] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/jiaxin/test2/install/base_interfaces_demo/share/base_interfaces_demo/cmake/base_interfaces_demo__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[14.593506] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/jiaxin/test2/install/base_interfaces_demo/share/base_interfaces_demo/cmake/base_interfaces_demo__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[14.593799] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/jiaxin/test2/install/base_interfaces_demo/share/base_interfaces_demo/cmake/base_interfaces_demo__rosidl_typesupport_cppExport.cmake\n'}
+[14.594152] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/jiaxin/test2/install/base_interfaces_demo/share/base_interfaces_demo/cmake/base_interfaces_demo__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[14.594374] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/jiaxin/test2/install/base_interfaces_demo/share/base_interfaces_demo/cmake/export_base_interfaces_demo__rosidl_generator_pyExport.cmake\n'}
+[14.594691] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/jiaxin/test2/install/base_interfaces_demo/share/base_interfaces_demo/cmake/export_base_interfaces_demo__rosidl_generator_pyExport-noconfig.cmake\n'}
+[14.595126] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/jiaxin/test2/install/base_interfaces_demo/share/base_interfaces_demo/cmake/rosidl_cmake-extras.cmake\n'}
+[14.595800] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/jiaxin/test2/install/base_interfaces_demo/share/base_interfaces_demo/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[14.596134] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/jiaxin/test2/install/base_interfaces_demo/share/base_interfaces_demo/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[14.597111] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/jiaxin/test2/install/base_interfaces_demo/share/base_interfaces_demo/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[14.597638] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/jiaxin/test2/install/base_interfaces_demo/share/base_interfaces_demo/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[14.598141] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/jiaxin/test2/install/base_interfaces_demo/share/base_interfaces_demo/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[14.598659] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/jiaxin/test2/install/base_interfaces_demo/share/base_interfaces_demo/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[14.599232] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/jiaxin/test2/install/base_interfaces_demo/share/base_interfaces_demo/cmake/base_interfaces_demoConfig.cmake\n'}
+[14.600903] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/jiaxin/test2/install/base_interfaces_demo/share/base_interfaces_demo/cmake/base_interfaces_demoConfig-version.cmake\n'}
+[14.601283] (base_interfaces_demo) StdoutLine: {'line': b'-- Installing: /home/jiaxin/test2/install/base_interfaces_demo/share/base_interfaces_demo/package.xml\n'}
+[14.603308] (base_interfaces_demo) CommandEnded: {'returncode': 0}
+[14.644113] (-) TimerEvent: {}
+[14.744917] (-) TimerEvent: {}
+[14.829057] (base_interfaces_demo) JobEnded: {'identifier': 'base_interfaces_demo', 'rc': 0}
+[14.832032] (-) EventReactorShutdown: {}

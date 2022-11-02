@@ -1,0 +1,85 @@
+[0.284s] Invoking command in '/home/jiaxin/test2/build/cpp01_topic': CMAKE_PREFIX_PATH=/home/jiaxin/test2/install/base_interfaces_demo:/home/jiaxin/test2/install/cpp01_topic:/opt/ros/humble /usr/bin/cmake --build /home/jiaxin/test2/build/cpp01_topic -- -j4 -l4
+[0.534s] [35m[1mConsolidate compiler generated dependencies of target demo01_talker[0m
+[0.555s] [ 33%] Built target demo02_transfer
+[0.557s] [ 66%] Built target demo03_listener
+[0.574s] [ 83%] [32mBuilding CXX object CMakeFiles/demo01_talker.dir/src/demo01_talker.cpp.o[0m
+[6.083s] [01m[K/home/jiaxin/test2/src/cpp01_topic/src/demo01_talker.cpp:[m[K In constructor ‘[01m[KTalkerIn::TalkerIn()[m[K’:
+[6.084s] [01m[K/home/jiaxin/test2/src/cpp01_topic/src/demo01_talker.cpp:24:27:[m[K [01;31m[Kerror: [m[Ka function-definition is not allowed here before ‘[01m[K{[m[K’ token
+[6.084s]    24 |       void declare_param()[01;31m[K{[m[K
+[6.084s]       |                           [01;31m[K^[m[K
+[6.088s] [01m[K/home/jiaxin/test2/src/cpp01_topic/src/demo01_talker.cpp:[m[K In member function ‘[01m[Kvoid TalkerIn::on_timer()[m[K’:
+[6.088s] [01m[K/home/jiaxin/test2/src/cpp01_topic/src/demo01_talker.cpp:38:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct base_interfaces_demo::msg::OutputIPARAAPIFnct_<std::allocator<void> >[m[K’ has no member named ‘[01m[Kchange_gear_position[m[K’
+[6.089s]    38 |       input.[01;31m[Kchange_gear_position[m[K = count_++;
+[6.089s]       |             [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[6.090s] [01m[K/home/jiaxin/test2/src/cpp01_topic/src/demo01_talker.cpp:39:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct base_interfaces_demo::msg::OutputIPARAAPIFnct_<std::allocator<void> >[m[K’ has no member named ‘[01m[Kaccel_des[m[K’
+[6.090s]    39 |       input.[01;31m[Kaccel_des[m[K = 0.5;
+[6.090s]       |             [01;31m[K^~~~~~~~~[m[K
+[6.091s] [01m[K/home/jiaxin/test2/src/cpp01_topic/src/demo01_talker.cpp:40:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct base_interfaces_demo::msg::OutputIPARAAPIFnct_<std::allocator<void> >[m[K’ has no member named ‘[01m[Ksteering_angle[m[K’
+[6.091s]    40 |       input.[01;31m[Ksteering_angle[m[K = 0.6;
+[6.091s]       |             [01;31m[K^~~~~~~~~~~~~~[m[K
+[6.093s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[6.093s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[6.093s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:23[m[K,
+[6.094s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[6.094s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[6.094s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[6.094s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[6.095s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[6.095s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[6.095s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[6.096s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[6.096s]                  from [01m[K/home/jiaxin/test2/src/cpp01_topic/src/demo01_talker.cpp:6[m[K:
+[6.096s] [01m[K/home/jiaxin/test2/src/cpp01_topic/src/demo01_talker.cpp:41:105:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct base_interfaces_demo::msg::OutputIPARAAPIFnct_<std::allocator<void> >[m[K’ has no member named ‘[01m[Kchange_gear_position[m[K’
+[6.096s]    41 | CPP_INFO(this->get_logger(), "Iuput:change_gear_position=%d,accel_des=%.2f,height=%.2f", input.[01;31m[Kchange_gear_position[m[K,input.accel_des,input.steering_angle);
+[6.097s]       |                                                                                                [01;31m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[6.097s] 
+[6.097s] [01m[K/home/jiaxin/test2/src/cpp01_topic/src/demo01_talker.cpp:41:132:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct base_interfaces_demo::msg::OutputIPARAAPIFnct_<std::allocator<void> >[m[K’ has no member named ‘[01m[Kaccel_des[m[K’
+[6.097s]    41 | , "Iuput:change_gear_position=%d,accel_des=%.2f,height=%.2f", input.change_gear_position,input.[01;31m[Kaccel_des[m[K,input.steering_angle);
+[6.097s]       |                                                                                                [01;31m[K^~~~~~~~~[m[K
+[6.097s] 
+[6.098s] [01m[K/home/jiaxin/test2/src/cpp01_topic/src/demo01_talker.cpp:41:148:[m[K [01;31m[Kerror: [m[K‘[01m[Kstruct base_interfaces_demo::msg::OutputIPARAAPIFnct_<std::allocator<void> >[m[K’ has no member named ‘[01m[Ksteering_angle[m[K’
+[6.098s]    41 | gear_position=%d,accel_des=%.2f,height=%.2f", input.change_gear_position,input.accel_des,input.[01;31m[Ksteering_angle[m[K);
+[6.098s]       |                                                                                                [01;31m[K^~~~~~~~~~~~~~[m[K
+[6.098s] 
+[6.101s] [01m[K/home/jiaxin/test2/src/cpp01_topic/src/demo01_talker.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[6.102s] [01m[K/home/jiaxin/test2/src/cpp01_topic/src/demo01_talker.cpp:58:26:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KTalkerIn::declare_parameter()[m[K’
+[6.102s]    58 |   [01;31m[Knode->declare_parameter()[m[K;
+[6.102s]       |   [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[6.105s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[6.105s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[6.105s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[6.107s]                  from [01m[K/home/jiaxin/test2/src/cpp01_topic/src/demo01_talker.cpp:6[m[K:
+[6.107s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:421:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class ParameterT> auto rclcpp::Node::declare_parameter(const string&, const ParameterT&, const ParameterDescriptor&, bool)[m[K’
+[6.107s]   421 |   [01;36m[Kdeclare_parameter[m[K(
+[6.108s]       |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[6.108s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:421:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[6.108s] [01m[K/home/jiaxin/test2/src/cpp01_topic/src/demo01_talker.cpp:58:26:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 0 provided
+[6.109s]    58 |   [01;36m[Knode->declare_parameter()[m[K;
+[6.109s]       |   [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[6.109s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[6.109s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[6.110s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[6.110s]                  from [01m[K/home/jiaxin/test2/src/cpp01_topic/src/demo01_talker.cpp:6[m[K:
+[6.110s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:434:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class ParameterT> auto rclcpp::Node::declare_parameter(const string&, const ParameterDescriptor&, bool)[m[K’
+[6.110s]   434 |   [01;36m[Kdeclare_parameter[m[K(
+[6.111s]       |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[6.111s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:434:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[6.111s] [01m[K/home/jiaxin/test2/src/cpp01_topic/src/demo01_talker.cpp:58:26:[m[K [01;36m[Knote: [m[K  candidate expects 3 arguments, 0 provided
+[6.111s]    58 |   [01;36m[Knode->declare_parameter()[m[K;
+[6.111s]       |   [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[6.112s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[6.112s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+[6.112s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[6.112s]                  from [01m[K/home/jiaxin/test2/src/cpp01_topic/src/demo01_talker.cpp:6[m[K:
+[6.113s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:366:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconst rclcpp::ParameterValue& rclcpp::Node::declare_parameter(const string&, const rclcpp::ParameterValue&, const ParameterDescriptor&, bool)[m[K’
+[6.113s]   366 |   [01;36m[Kdeclare_parameter[m[K(
+[6.113s]       |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[6.113s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:366:3:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 0 provided
+[6.114s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:391:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconst rclcpp::ParameterValue& rclcpp::Node::declare_parameter(const string&, rclcpp::ParameterType, const ParameterDescriptor&, bool)[m[K’
+[6.114s]   391 |   [01;36m[Kdeclare_parameter[m[K(
+[6.114s]       |   [01;36m[K^~~~~~~~~~~~~~~~~[m[K
+[6.114s] [01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:391:3:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 0 provided
+[7.609s] gmake[2]: *** [CMakeFiles/demo01_talker.dir/build.make:76: CMakeFiles/demo01_talker.dir/src/demo01_talker.cpp.o] Error 1
+[7.610s] gmake[1]: *** [CMakeFiles/Makefile2:141: CMakeFiles/demo01_talker.dir/all] Error 2
+[7.610s] gmake: *** [Makefile:146: all] Error 2
+[7.614s] Invoked command in '/home/jiaxin/test2/build/cpp01_topic' returned '2': CMAKE_PREFIX_PATH=/home/jiaxin/test2/install/base_interfaces_demo:/home/jiaxin/test2/install/cpp01_topic:/opt/ros/humble /usr/bin/cmake --build /home/jiaxin/test2/build/cpp01_topic -- -j4 -l4

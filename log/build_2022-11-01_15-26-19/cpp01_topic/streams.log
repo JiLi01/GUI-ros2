@@ -1,0 +1,14 @@
+[0.212s] Invoking command in '/home/jiaxin/test2/build/cpp01_topic': CMAKE_PREFIX_PATH=/home/jiaxin/test2/install/base_interfaces_demo:/home/jiaxin/test2/install/cpp01_topic:/opt/ros/humble /usr/bin/cmake --build /home/jiaxin/test2/build/cpp01_topic -- -j4 -l4
+[0.264s] [35m[1mConsolidate compiler generated dependencies of target demo02_transfer[0m
+[0.281s] [ 33%] Built target demo03_listener
+[0.285s] [ 66%] Built target demo01_talker
+[0.293s] [ 83%] [32mBuilding CXX object CMakeFiles/demo02_transfer.dir/src/demo02_transfer.cpp.o[0m
+[5.277s] [01m[K/home/jiaxin/test2/src/cpp01_topic/src/demo02_transfer.cpp:[m[K In member function ‘[01m[Kvoid Transfer::declare_param()[m[K’:
+[5.278s] [01m[K/home/jiaxin/test2/src/cpp01_topic/src/demo02_transfer.cpp:25:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kdescriptor[m[K’ was not declared in this scope; did you mean ‘[01m[Kacc_descriptor[m[K’?
+[5.278s]    25 |       [01;31m[Kdescriptor[m[K.floating_point_range.resize(1);
+[5.279s]       |       [01;31m[K^~~~~~~~~~[m[K
+[5.279s]       |       [32m[Kacc_descriptor[m[K
+[11.147s] gmake[2]: *** [CMakeFiles/demo02_transfer.dir/build.make:76: CMakeFiles/demo02_transfer.dir/src/demo02_transfer.cpp.o] Error 1
+[11.148s] gmake[1]: *** [CMakeFiles/Makefile2:167: CMakeFiles/demo02_transfer.dir/all] Error 2
+[11.148s] gmake: *** [Makefile:146: all] Error 2
+[11.150s] Invoked command in '/home/jiaxin/test2/build/cpp01_topic' returned '2': CMAKE_PREFIX_PATH=/home/jiaxin/test2/install/base_interfaces_demo:/home/jiaxin/test2/install/cpp01_topic:/opt/ros/humble /usr/bin/cmake --build /home/jiaxin/test2/build/cpp01_topic -- -j4 -l4

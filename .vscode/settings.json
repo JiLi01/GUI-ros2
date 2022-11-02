@@ -1,0 +1,8 @@
+{
+    "cmake.sourceDirectory": "${workspaceFolder}/build/base_interfaces_demo/base_interfaces_demo__py",
+    "C_Cpp.errorSquiggles": "Disabled",
+    "files.associations": {
+        "*.idl": "cpp",
+        "functional": "cpp"
+    }
+}
