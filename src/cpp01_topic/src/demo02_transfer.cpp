@@ -41,7 +41,7 @@ class Transfer : public rclcpp::Node
       this->declare_parameter("heartbeat_in",6);
       this->declare_parameter("startabfrage",7);}
     Transfer()
-    : Node("transfer_node_cpp"), counter_(0)
+    : Node("transfer_node_cpp", rclcpp::NodeOptions().allow_undeclared_parameters(true)), counter_(0)
     {
       // Create subscription；
       subscription_ = this->create_subscription<OutputIPARAAPIFnct>("park_api_resp", 10, std::bind(&Transfer::do_cb, this, _1));
@@ -67,7 +67,7 @@ class Transfer : public rclcpp::Node
     {
       // Content that should be published (assign the value of parameters to that of messages);
       auto output = InputIPARAAPIFnct();
-      /*
+      
       //assign the calculated value to parameters;
       output.change_gear_position = this->get_parameter("change_gear_position").as_int();
       output.accel_des = this->get_parameter("accel_des").as_double();
@@ -76,7 +76,8 @@ class Transfer : public rclcpp::Node
       output.emergency_break = this->get_parameter("emergency_break").as_int();
       output.heartbeat_in = this->get_parameter("heartbeat_in").as_int();
       output.startabfrage = this->get_parameter("startabfrage").as_int();
-      */
+      
+     /*
       output.change_gear_position = 2;
       output.accel_des = 3.0;
       output.steering_angle = 4.8;
@@ -90,7 +91,7 @@ class Transfer : public rclcpp::Node
       this->set_parameter(rclcpp::Parameter("turn_signal", output.turn_signal));
       this->set_parameter(rclcpp::Parameter("emergency_break", output.emergency_break));
       this->set_parameter(rclcpp::Parameter("heartbeat_in", output.heartbeat_in));
-      this->set_parameter(rclcpp::Parameter("startabfrage", output.startabfrage));
+      this->set_parameter(rclcpp::Parameter("startabfrage", output.startabfrage));*/
       publisher_->publish(output);
     }
     rclcpp::Subscription<OutputIPARAAPIFnct>::SharedPtr subscription_;

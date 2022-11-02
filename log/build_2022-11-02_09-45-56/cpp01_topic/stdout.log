@@ -1,0 +1,5 @@
+[ 30%] [32mBuilding CXX object CMakeFiles/demo02_transfer.dir/src/demo02_transfer.cpp.o[0m
+[ 30%] Built target demo01_talker
+[ 50%] Built target demo04_test_pub
+[ 70%] Built target demo03_listener
+[ 90%] Built target demo05_test_sub

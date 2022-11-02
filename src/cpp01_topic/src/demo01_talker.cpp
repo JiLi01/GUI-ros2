@@ -14,7 +14,7 @@ class TalkerIn : public rclcpp::Node
     TalkerIn()
     : Node("talker_node_cpp", rclcpp::NodeOptions().allow_undeclared_parameters(true)), count_(0)
     {
-      this->declare_parameter("Fahrer_bremst",1); 
+      //this->declare_parameter("Fahrer_bremst",1); 
       // Create publisher；
       publisher_ = this->create_publisher<OutputIPARAAPIFnct>("park_api_resp", 10);
       // Define how often messages would be published；
@@ -50,9 +50,8 @@ class TalkerIn : public rclcpp::Node
       input.gear_change_possible = 4;
       input.status_emergency_stop = 5;
       input.fehlerzustand = 6;
-      this->set_parameter(rclcpp::Parameter("Fahrer_bremst", input.driver_override_speed));
       RCLCPP_INFO(this->get_logger(), "Iuput:driver_override_speed=%d,fahrzeug_zustand=%d,heartbeat_out=%d", input.driver_override_speed,input.fahrzeug_zustand,input.heartbeat_out);
-      RCLCPP_INFO(this->get_logger(), "刹车=%ld", this->get_parameter("Fahrer_bremst").as_int());
+      //RCLCPP_INFO(this->get_logger(), "刹车=%ld", this->get_parameter("Fahrer_bremst").as_int());
       publisher_->publish(input);
 
     }
